@@ -2,7 +2,7 @@
   "structType" : "org.cjoakim.cosmos.altgraph.data.graph.TripleQueryStruct",
   "containerName" : null,
   "sql" : "dynamic",
-  "elapsedMs" : 1250,
+  "elapsedMs" : 1248,
   "pageCount" : 0,
   "requestCharge" : 0.0,
   "documentCount" : 1972,

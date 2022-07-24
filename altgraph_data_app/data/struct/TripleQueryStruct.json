@@ -1,10 +1,10 @@
 {
   "structType" : "org.cjoakim.cosmos.altgraph.data.graph.TripleQueryStruct",
-  "containerName" : "altgraph",
-  "sql" : "select * from c where c.doctype = 'triple' and c.tenant = '123' and c.lob = 'npm' and c.subjectType = 'library' and c.objectType = 'library'",
-  "elapsedMs" : 2105,
-  "pageCount" : 1,
-  "requestCharge" : 110.07,
+  "containerName" : null,
+  "sql" : "dynamic",
+  "elapsedMs" : 3122,
+  "pageCount" : 0,
+  "requestCharge" : 0.0,
   "documentCount" : 1972,
   "documents" : [ {
     "id" : "1a5e8f40-7ce9-43fc-9b14-1be18c552b62",

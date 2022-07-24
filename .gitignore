@@ -20,8 +20,12 @@ gradlew.bat
 **/.vscode
 **/bin/
 **/build/
+**/cache/
 **/target/
 **/tmp/
+
+altgraph_web_app/data/graph/edges.csv
+altgraph_web_app/data/graph/nodes.csv
 
 .gradle
 
