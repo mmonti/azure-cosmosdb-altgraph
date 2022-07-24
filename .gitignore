@@ -24,6 +24,7 @@ gradlew.bat
 **/target/
 **/tmp/
 
+altgraph_web_app/data/cache/*.json
 altgraph_web_app/data/graph/edges.csv
 altgraph_web_app/data/graph/nodes.csv
 
