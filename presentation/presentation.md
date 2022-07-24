@@ -1,9 +1,5 @@
 # AltGraph - Presentation
 
-**AltGraph** is an **alternative graph implementation** built on the **Azure CosmosDB SQL API** 
-and **Java** with the **Spring Boot** and **Spring Data** frameworks.
-
-
 ### Chris Joakim, Microsoft, CosmosDB Global Black Belt (GBB)
 
 ### https://www.linkedin.com/in/chris-joakim-4859b89
@@ -11,6 +7,12 @@ and **Java** with the **Spring Boot** and **Spring Data** frameworks.
 <p align="center">
     <img src="img/spacer-50.png">
 </p>
+
+**AltGraph** is an **alternative graph implementation** built on:
+- the **Azure CosmosDB SQL API** 
+- tje **Java** programming language 
+- the **Spring Boot** and **Spring Data** frameworks
+- an **Azure Redis Cache** or **CosmosDB Integrated Cache**
 
 # Presentation Outline
 
