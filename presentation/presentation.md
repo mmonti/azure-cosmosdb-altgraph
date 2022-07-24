@@ -3,9 +3,6 @@
 **AltGraph** is an **alternative graph implementation** built on the **Azure CosmosDB SQL API** 
 and **Java** with the **Spring Boot** and **Spring Data** frameworks.
 
-<p align="center">
-    <img src="img/spacer-50.png">
-</p>
 
 ### Chris Joakim, Microsoft, CosmosDB Global Black Belt (GBB)
 
