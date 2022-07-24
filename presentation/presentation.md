@@ -483,7 +483,9 @@ Azure Redis Cache, or the **CosmosDB Integrated Cache**.
 ---
 
 ## Additional Links
-- [Presentation](links.md)
+
+- [Interesting Links](links.md)
+- [How to Setup This App in your Environment](setup.md)
 
 <p align="center">
     <img src="img/spacer-500.png">
