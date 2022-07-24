@@ -479,6 +479,9 @@ Azure Redis Cache, or the **CosmosDB Integrated Cache**.
     <img src="img/UI-mssql-2-with-cache.png">
 </p>
 
+<p align="center">
+    <img src="img/spacer-500.png">
+</p>
 
 ---
 
@@ -488,7 +491,7 @@ Azure Redis Cache, or the **CosmosDB Integrated Cache**.
 - [How to Setup This App in your Environment](setup.md)
 
 <p align="center">
-    <img src="img/spacer-500.png">
+    <img src="img/spacer-100.png">
 </p>
 
 ## Wrapping Up
