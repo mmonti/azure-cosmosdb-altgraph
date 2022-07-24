@@ -4,11 +4,10 @@
 
 ### https://www.linkedin.com/in/chris-joakim-4859b89
 
-<p align="center">
-    <img src="img/spacer-50.png">
-</p>
+### Description
 
 **AltGraph** is an **alternative graph implementation** built on:
+
 - the **Azure CosmosDB SQL API** 
 - tje **Java** programming language 
 - the **Spring Boot** and **Spring Data** frameworks
