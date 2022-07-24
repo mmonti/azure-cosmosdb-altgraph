@@ -1,5 +1,29 @@
+## cj
+
+gradle/
+gradlew
+gradlew.bat
+
+**/*.class
+**/*.gz 
+**/*.iml
+**/*.swp
+**/*.tsv 
+**/*.zip
+
+**/.DS_Store
+**/.classpath
+**/.factorypath
+**/.gradle/
+**/.idea/
+**/.vs/
+**/.vscode
+**/bin/
+**/build/
+**/target/
+**/tmp/
+
 .gradle
-/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -12,3 +36,6 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+
+web/data/cache/*.json

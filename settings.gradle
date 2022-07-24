@@ -1,0 +1,5 @@
+rootProject.name = 'altgraph'
+
+include 'altgraph_data_app'
+include 'altgraph_web_app'
+

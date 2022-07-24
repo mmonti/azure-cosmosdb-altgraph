@@ -1,0 +1,53 @@
+<project name="backup" default="copySource" basedir=".">
+
+    <description>
+        Apache Ant script to copy the source code from the data_app to the web_app,
+        but exclude some files such as the Spring CommandLineRunner class and the
+        batch Processor classes.
+
+        The approach I used in this Spring application was to first develop data functionality
+        in the "data_app" and the Spring CommandLineRunner class DataCommandLineApp (a console app).
+        Once working, package "org.cjoakim.cosmos.altgraph.data" is copied to the "web_app"
+        using this Ant script.
+
+        Usage: ant -f copy_source.xml
+
+        Chris Joakim, July 2022
+    </description>
+
+    <property name="data_app_src_dir" value="altgraph_data_app/src/main/java/org/cjoakim/cosmos/altgraph/data/" />
+    <property name="web_app_src_dir"  value="altgraph_web_app/src/main/java/org/cjoakim/cosmos/altgraph/data/" />
+
+    <!-- ******************************************************************* -->
+
+    <target name="echoProperties">
+
+        <echo message="Properties used in this script:" />
+        <echo message="data_app_src_dir: ${data_app_src_dir}" />
+        <echo message="web_app_src_dir:  ${web_app_src_dir}" />
+    </target>
+
+    <!-- ******************************************************************* -->
+
+    <target name="copySource" depends="echoProperties" >
+
+        <delete dir="${web_app_src_dir}" />
+
+        <copy todir="${web_app_src_dir}">
+            <fileset dir="${data_app_src_dir}">
+                <exclude name="**/DataCommandLineApp.java"/>
+                <exclude name="**/CacheProcessor.java"/>
+                <exclude name="**/ConsoleAppProcess.java"/>
+                <exclude name="**/CosmosDbLoader.java"/>
+                <exclude name="**/D3CsvProcessor.java"/>
+                <exclude name="**/DaoQueryProcessor.java"/>
+                <exclude name="**/GraphProcessor.java"/>
+                <exclude name="**/RawDataTransformer.java"/>
+                <exclude name="**/RepoQueryProcessor.java"/>
+            </fileset>
+        </copy>
+
+        <echo message="done" />
+    </target>
+
+</project>

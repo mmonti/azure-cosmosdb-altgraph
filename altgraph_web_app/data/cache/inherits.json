@@ -1,0 +1,25 @@
+{
+  "doctype" : "library",
+  "label" : "inherits",
+  "id" : "3a4721fe-1003-4d34-a357-c813d3fb5797",
+  "pk" : "inherits",
+  "_etag" : "\"9c00c01e-0000-0100-0000-62d9c5350000\"",
+  "tenant" : "123",
+  "lob" : "npm",
+  "cacheKey" : "library|inherits",
+  "graphKey" : "library^inherits^3a4721fe-1003-4d34-a357-c813d3fb5797^inherits",
+  "name" : "inherits",
+  "desc" : "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+  "keywords" : [ "inheritance", "class", "klass", "oop", "object-oriented", "inherits", "browser", "browserify" ],
+  "dependencies" : { },
+  "devDependencies" : {
+    "tap" : "^14.2.4"
+  },
+  "author" : "",
+  "maintainers" : [ "isaacs <i@izs.me>" ],
+  "version" : "2.0.4",
+  "versions" : [ "1.0.0", "1.0.1", "1.0.2", "2.0.0", "2.0.1", "2.0.3", "2.0.4" ],
+  "homepage" : "https://github.com/isaacs/inherits#readme",
+  "library_age_days" : 3068,
+  "version_age_days" : 72
+}

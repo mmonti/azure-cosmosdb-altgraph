@@ -1,0 +1,76 @@
+--category CosmosDB General
+
+Documentation Home | https://docs.microsoft.com/en-us/azure/cosmos-db/
+Partitioning and Horizontal Scaling | https://docs.microsoft.com/en-us/azure/cosmos-db/partitioning-overview
+Request Units | https://docs.microsoft.com/en-us/azure/cosmos-db/request-units
+Autoscale | https://docs.microsoft.com/en-us/azure/cosmos-db/provision-throughput-autoscale
+Autoscale FAQ | https://docs.microsoft.com/en-us/azure/cosmos-db/autoscale-faq
+Consistency Levels | https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+Jupyter Notebooks - Python and C# | https://docs.microsoft.com/en-us/azure/cosmos-db/cosmosdb-jupyter-notebooks
+az CLI | https://docs.microsoft.com/en-us/cli/azure/cosmosdb?view=azure-cli-latest
+Emulator | https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator
+Serverless | https://docs.microsoft.com/en-us/azure/cosmos-db/serverless
+Blog | https://devblogs.microsoft.com/cosmosdb/
+Ignite 2021 | https://devblogs.microsoft.com/cosmosdb/announced-at-ignite-new-cassandra-and-mongodb-capabilities-real-time-analytics-enhanced-security-and-more/
+
+--category CosmosDB SQL 
+
+Modeling | https://docs.microsoft.com/en-us/azure/cosmos-db/modeling-data
+SQL Syntax | https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-getting-started
+Indexing | https://docs.microsoft.com/en-us/azure/cosmos-db/index-overview
+Stored procedures, triggers, UDFs | https://docs.microsoft.com/en-us/azure/cosmos-db/stored-procedures-triggers-udfs
+Geospatial and GeoJSON | https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-geospatial-intro
+Bulk Executor Library | https://docs.microsoft.com/en-us/azure/cosmos-db/bulk-executor-overview
+RBAC Preview | https://devblogs.microsoft.com/cosmosdb/role-based-access-control-preview/
+RBAC How-To | https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-setup-rbac
+Encryption | https://docs.microsoft.com/en-us/azure/cosmos-db/database-encryption-at-rest
+CMK & AKV| https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-setup-cmk
+Access Control | https://docs.microsoft.com/en-us/rest/api/cosmos-db/access-control-on-cosmosdb-resources
+High Storage - Low Throughput Program | https://docs.microsoft.com/en-us/azure/cosmos-db/set-throughput#high-storage-low-throughput-program
+Mark Brown MultiMaster GitHub | https://github.com/markjbrown/cosmos-global-distribution-demos
+Mark Brown MultiMaster Video | https://www.bing.com/videos/search?q=cosmos-global-distribution-demos+video+&&view=detail&mid=E20E6E3CF4E2A83C9A15E20E6E3CF4E2A83C9A15&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dcosmos-global-distribution-demos%2Bvideo%2B%26FORM%3DHDRSC4
+Composite Indexes, Tim S | https://devblogs.microsoft.com/cosmosdb/new-ways-to-use-composite-indexes/ 
+Quick Start Templates | https://github.com/Azure/azure-cosmos-dotnet-templates
+
+--category CosmosDB Mongo 
+
+https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-introduction | https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-introduction
+MongoDB Indexing | https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-indexing
+Mongo 4.2 Feature Support | https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/feature-support-42
+Mongo 3.6 Feature Support | https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36
+Change streams | https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-change-streams?tabs=javascript
+Using Studio 3T | https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-mongochef
+
+--category--category Open-Source Mongo Libraries
+
+pymongo @ PyPI | https://pypi.org/project/pymongo/
+pymongo docs | https://pymongo.readthedocs.io/en/stable/
+mongoose @ npm | https://www.npmjs.com/package/mongoose
+
+--category CosmosDB Graph/Gremlin
+
+Intro to Gremlin API in Azure Cosmos DB | https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction
+Apache TinkerPop Project | http://tinkerpop.apache.org/
+Azure Bulk Load SDKs | https://docs.microsoft.com/en-us/azure/cosmos-db/graph/bulk-executor-graph-dotnet#java
+Practical Gremlin: An Apache TinkerPop Tutorial | http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html
+Hackolade (Pascal Desmarets, Brussels) | https://www.hackolade.com/
+
+--category CosmosDB Cassandra
+
+Intro to the Azure Cosmos DB Cassandra API | https://docs.microsoft.com/en-us/azure/cosmos-db/cassandra-introduction
+
+--category Change Feed
+
+Change Feed in Azure Cosmos DB | https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed
+Change Feed with Azure Functions | https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed-functions
+Change Feed with Azure Cosmos DB .NET SDK Version 3 | https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed-processor
+
+--category Synapse Link
+
+What is Azure Synapse Link? | https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link
+Architecture Diagram | https://docs.microsoft.com/en-us/azure/cosmos-db/media/synapse-link/synapse-analytics-cosmos-db-architecture.png
+Configure Synapse Link | https://docs.microsoft.com/en-us/azure/cosmos-db/configure-synapse-link
+
+--category REST
+
+Azure CosmosDB/SQL REST API Reference | https://docs.microsoft.com/en-us/rest/api/cosmos-db/

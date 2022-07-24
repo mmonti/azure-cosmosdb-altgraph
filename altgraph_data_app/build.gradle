@@ -1,0 +1,92 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.1'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group = 'org.cjoakim.graph'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+	set('springCloudAzureVersion', "4.2.0")
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'com.azure.spring:spring-cloud-azure-starter-data-cosmos'
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "com.azure.spring:spring-cloud-azure-dependencies:${springCloudAzureVersion}"
+	}
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+task transformRawData(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.cjoakim.cosmos.altgraph.data.DataCommandLineApp'
+    args 'transform_raw_data', '--tenant', '123', '--verbose'
+}
+
+task loadCosmos(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.cjoakim.cosmos.altgraph.data.DataCommandLineApp'
+    args 'load_cosmos', '--do-writes', '--verbos'
+}
+
+task springDataQueries(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.cjoakim.cosmos.altgraph.data.DataCommandLineApp'
+    args 'springdata_queries', '--verbose'
+}
+
+task daoQueries(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.cjoakim.cosmos.altgraph.data.DataCommandLineApp'
+    args 'dao_queries'
+}
+
+task buildGraph(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.cjoakim.cosmos.altgraph.data.DataCommandLineApp'
+    args 'build_graph'
+}
+
+task buildD3Csv(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.cjoakim.cosmos.altgraph.data.DataCommandLineApp'
+    args 'build_d3_csv'
+}
+
+task testCache(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.cjoakim.cosmos.altgraph.data.DataCommandLineApp'
+    args 'test_cache'
+}
+
+
+// gradle -q dependencies > tmp/dependencies.txt
+//  \--- com.azure:azure-spring-data-cosmos:3.21.0
+//       +--- com.azure:azure-cosmos:4.30.0

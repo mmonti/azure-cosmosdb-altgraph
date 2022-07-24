@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tutorial Demo</title>
+  </head>
+  <body>
+    <div id="mountNode"></div>
+
+    <!-- import G6 by CDN -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/antv-g6/4.5.5/g6.min.js"></script>
+
+    
+
+    <script>
+      // console.log(G6.Global.version);
+      const initData = {
+        // The array of nodes
+        nodes: [
+          {
+            id: 'node1', // String, unique and required
+            x: 100, // Number, the x coordinate
+            y: 200, // Number, the y coordinate
+            label: 'Source', // The label of the node
+          },
+          {
+            id: 'node2',
+            x: 300,
+            y: 200,
+            label: 'Target',
+          },
+        ],
+        // The array of edges
+        edges: [
+          // An edge links from node1 to node2
+          {
+            source: 'node1', // String, required, the id of the source node
+            target: 'node2', // String, required, the id of the target node
+            label: 'I am an edge', // The label of the edge
+          },
+        ],
+      };
+
+      const graph = new G6.Graph({
+    container: 'mountNode', // String | HTMLElement, required, the id of DOM element or an HTML node
+    width: 800, // Number, required, the width of the graph
+    height: 500, // Number, required, the height of the graph
+  });
+  graph.data(initData); // Load the data defined in Step 2
+  graph.render(); // Render the graph
+    </script>
+  </body>
+</html>

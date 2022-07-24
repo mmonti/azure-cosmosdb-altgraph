@@ -1,0 +1,43 @@
+{
+  "doctype" : "library",
+  "label" : "pug",
+  "id" : "0b92a30f-8341-4739-8225-a3287afdb54d",
+  "pk" : "pug",
+  "_etag" : "\"9c009523-0000-0100-0000-62d9c53f0000\"",
+  "tenant" : "123",
+  "lob" : "npm",
+  "cacheKey" : "library|pug",
+  "graphKey" : "library^pug^0b92a30f-8341-4739-8225-a3287afdb54d^pug",
+  "name" : "pug",
+  "desc" : "A clean, whitespace-sensitive template language for writing HTML",
+  "keywords" : [ "html", "jade", "pug", "template" ],
+  "dependencies" : {
+    "pug-linker" : "^3.0.6",
+    "pug-runtime" : "^2.0.5",
+    "pug-strip-comments" : "^1.0.4",
+    "pug-lexer" : "^4.1.0",
+    "pug-filters" : "^3.1.1",
+    "pug-load" : "^2.0.12",
+    "pug-parser" : "^5.0.1",
+    "pug-code-gen" : "^2.0.2"
+  },
+  "devDependencies" : {
+    "jstransformer-cdata" : "^1.0.0",
+    "mkdirp" : "^0.5.1",
+    "rimraf" : "^2.2.8",
+    "jstransformer-coffee-script" : "^1.0.0",
+    "jstransformer-less" : "^2.1.0",
+    "jstransformer-uglify-js" : "^1.1.1",
+    "jstransformer-stylus" : "^1.0.0",
+    "uglify-js" : "github:mishoo/UglifyJS2#1c15d0db456ce32f1b9b507aad97e5ee5c8285f7",
+    "jstransformer-verbatim" : "^1.0.0",
+    "jstransformer-markdown-it" : "^1.0.0"
+  },
+  "author" : "TJ Holowaychuk <tj@vision-media.ca>",
+  "maintainers" : [ "forbeslindesay <forbes@lindesay.co.uk>", "timothygu <timothygu99@gmail.com>" ],
+  "version" : "2.0.4",
+  "versions" : [ "0.0.0", "0.1.0", "2.0.0-alpha1", "2.0.0-alpha2", "2.0.0-alpha3", "2.0.0-alpha4", "2.0.0-alpha5", "2.0.0-alpha6", "2.0.0-alpha7", "2.0.0-alpha8", "2.0.0-beta.12", "2.0.0-beta1", "2.0.0-beta10", "2.0.0-beta11", "2.0.0-beta2", "2.0.0-beta3", "2.0.0-beta4", "2.0.0-beta5", "2.0.0-beta6", "2.0.0-beta7", "2.0.0-beta8", "2.0.0-beta9", "2.0.0-rc.1", "2.0.0-rc.2", "2.0.0-rc.3", "2.0.0-rc.4", "2.0.0", "2.0.1", "2.0.2", "2.0.3", "2.0.4" ],
+  "homepage" : "https://pugjs.org",
+  "library_age_days" : 2199,
+  "version_age_days" : 73
+}
