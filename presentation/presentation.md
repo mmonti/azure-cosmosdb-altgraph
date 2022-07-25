@@ -8,10 +8,10 @@
 
 **AltGraph** is an **alternative graph implementation** built on:
 
-- the **Azure CosmosDB SQL API** 
-- tje **Java** programming language 
-- the **Spring Boot** and **Spring Data** frameworks
-- an **Azure Redis Cache** or **CosmosDB Integrated Cache**
+- **Azure CosmosDB SQL API** 
+- **Java** programming language 
+- **Spring Boot** and **Spring Data** frameworks
+- **Azure Redis Cache** or **CosmosDB Integrated Cache**
 
 # Presentation Outline
 
