@@ -20,11 +20,14 @@ It uses the **Node.js NPM** ecosystem of libraries as a public-domain dataset an
 ## Directory Structure of this Repository
 
 ```
-├── altgraph_data_app     A Java Spring CommandLineRunner (console) application 
-└── altgraph_web_app      A Java Spring Web application
-├── presentation          Presentation content, see presentation.md
+├── altgraph_data_app       A Java Spring CommandLineRunner (console) application 
+└── altgraph_web_app        A Java Spring Web application
+├── CosmosDB-AltGraph.pdf   Presentation PDF
 
 ```
 
 ## Links
-  - [Presentation](presentation/presentation.md)
+
+- [Presentation PDF](CosmosDB-AltGraph.pdf)
+- [Links](docs/links.md)
+- [Setup](docs/setup.md)
