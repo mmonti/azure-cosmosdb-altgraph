@@ -12,7 +12,7 @@ It uses the **Node.js NPM** ecosystem of libraries as a public-domain dataset an
 ---
 
 <p align="center">
-    <img src="presentation/img/UI-Tedious-1-No-Cache.png" width="100%">
+    <img src="docs/img/UI-Tedious-1-No-Cache.png" width="100%">
 </p>
 
 ---
