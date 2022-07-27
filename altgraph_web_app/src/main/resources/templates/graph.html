@@ -6,7 +6,7 @@
 <div>
     <div th:replace="fragments/page_title_fragment :: page_title">...</div>
     <div th:replace="fragments/search_form_fragment :: search_form">...</div>
-    <p class="d-flex justify-content-center" id="libraryInfo" name="libraryInfo"></p>
+    <h5 class="d-flex justify-content-center" id="libraryInfo" name="libraryInfo"></h5>
 
     <div id="viz">
         <svg style="width:95%;height:1024px;">
@@ -19,7 +19,7 @@
 
 <script>
     $(document).ready(function() {
-        console.log("d3graph onready 10:55");
+        console.log("graph.html onready");
 
         function submitForm() {
             document.getElementById("searchForm").submit();
@@ -32,9 +32,15 @@
             var url = "/get_library/" + libName;
             $.get(url, function(data) {
                 console.log(data);
-                var author = data.author;
-                var desc  = data.desc;
-                var info = "" + libName + ", author: " + author + " desc: " + desc;
+                var author = data.author.trim();
+                var desc  = data.desc.trim();
+                var info  = "Library: " + libName + "  ";
+                if (author.length > 0) {
+                    info = info + "author: " + author + "  ";
+                }
+                if (desc.length > 0) {
+                    info = info + "  Description: " + desc;
+                }
                 $("#libraryInfo").text(info);
             });
         }
