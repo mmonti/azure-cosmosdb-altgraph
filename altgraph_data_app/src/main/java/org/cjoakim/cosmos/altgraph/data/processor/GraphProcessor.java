@@ -8,6 +8,7 @@ import org.cjoakim.cosmos.altgraph.data.graph.GraphBuilder;
 import org.cjoakim.cosmos.altgraph.data.graph.GraphNode;
 import org.cjoakim.cosmos.altgraph.data.graph.TripleQueryStruct;
 import org.cjoakim.cosmos.altgraph.data.io.FileUtil;
+import org.cjoakim.cosmos.altgraph.data.model.Author;
 import org.cjoakim.cosmos.altgraph.data.model.Library;
 import org.springframework.stereotype.Component;
 
@@ -29,24 +30,30 @@ public class GraphProcessor implements ConsoleAppProcess, DataAppConstants {
         //log.warn(struct.asJson(true));
         log.warn("TripleQueryStruct documents size: " + struct.getDocuments().size());
 
-        Library rootLibrary = readTediousRootTriple();
+        // First build a Library Graph
+        Library rootLibrary = readLibraryTediousFixture();
         log.warn("rootLibrary: " + rootLibrary.asJson(true));
-
         GraphBuilder builder = new GraphBuilder(rootLibrary, struct);
         Graph graph = builder.buildLibraryGraph(50);
         fu.writeJson(graph, GRAPH_JSON_FILE, true, true);
-
         log.warn("Graph root lib dependencies is correct: " + verifyGraph(rootLibrary, graph));
+
+        // First build an Author Graph
     }
 
-    private Library readExpressRootTriple() throws Exception {
+    private Library readLibraryExpressFixture() throws Exception {
 
         return new FileUtil().readLibrary("data/refined/express.json");
     }
 
-    private Library readTediousRootTriple() throws Exception {
+    private Library readLibraryTediousFixture() throws Exception {
 
         return new FileUtil().readLibrary("data/refined/tedious.json");
+    }
+
+    private Author readAuthorTjHolowaychuk() throws Exception {
+
+        return new FileUtil().readAuthor("data/refined/author-tj-holowaychuk.json");
     }
 
     /**

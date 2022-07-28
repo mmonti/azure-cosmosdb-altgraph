@@ -1,1865 +1,2564 @@
 [ {
   "doctype" : "author",
   "label" : "",
-  "id" : "b2c41fc0-61cb-4633-9322-812478cc6246",
+  "id" : "e8a0bc99-c3bf-4228-8667-8f57f7bc4dc8",
   "pk" : "",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|"
+  "cacheKey" : "author|",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "\"Cowboy\" Ben Alman (http://benalman.com/)",
-  "id" : "80b85bc8-f0b6-43c0-80eb-af7725c0ecb8",
+  "id" : "a920f3dd-8ee3-4870-8a51-0e8e517f45a4",
   "pk" : "\"Cowboy\" Ben Alman (http://benalman.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|\"Cowboy\" Ben Alman (http://benalman.com/)"
+  "cacheKey" : "author|\"Cowboy\" Ben Alman (http://benalman.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "AJ ONeal <coolaj86@gmail.com>",
-  "id" : "6f58ca3f-e892-4532-8704-2b30df8aef77",
+  "id" : "e0513725-6ab7-42e5-b12b-701ead72ea8d",
   "pk" : "AJ ONeal <coolaj86@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|AJ ONeal <coolaj86@gmail.com>"
+  "cacheKey" : "author|AJ ONeal <coolaj86@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com)",
-  "id" : "95b10ad4-1d27-40a9-ab53-fd01b079ad62",
+  "id" : "759e4c50-b0f9-43ab-a65b-7769386ae0a2",
   "pk" : "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com)"
+  "cacheKey" : "author|AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
-  "id" : "9472a6ba-557e-4bb9-a9cf-3e62454cd49d",
+  "id" : "0b6402e7-2322-4c76-b06d-808aba69e841",
   "pk" : "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)"
+  "cacheKey" : "author|AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
-  "id" : "2c82d25d-aaab-4846-842d-73a2dedfbb98",
+  "id" : "45fa5338-bb3a-4fb3-a245-3e28eb62ee47",
   "pk" : "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)"
+  "cacheKey" : "author|Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Alex Bardas <alex.bardas+github@gmail.com>",
-  "id" : "aace7d3f-b4bf-46ad-82e7-618d160d734f",
+  "id" : "aeb152e1-b632-4630-9c9a-8c9413178b7b",
   "pk" : "Alex Bardas <alex.bardas+github@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Alex Bardas <alex.bardas+github@gmail.com>"
+  "cacheKey" : "author|Alex Bardas <alex.bardas+github@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Alex Indigo <iam@alexindigo.com>",
-  "id" : "708bb48e-a7ea-41fe-b172-4fae5c8d5191",
+  "id" : "a5ffdaf3-2306-4cfe-9043-9f1fa167f193",
   "pk" : "Alex Indigo <iam@alexindigo.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Alex Indigo <iam@alexindigo.com>"
+  "cacheKey" : "author|Alex Indigo <iam@alexindigo.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Alex Wilson <alex.wilson@joyent.com>",
-  "id" : "900276f8-de4e-4a5c-87d7-4f566e4bb27b",
+  "id" : "7e8c4db4-12e3-4d18-839e-2e8fb8aefd97",
   "pk" : "Alex Wilson <alex.wilson@joyent.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Alex Wilson <alex.wilson@joyent.com>"
+  "cacheKey" : "author|Alex Wilson <alex.wilson@joyent.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Alexander Shtuchkin <ashtuchkin@gmail.com>",
-  "id" : "c31010a5-03b3-44cf-9f9f-798726f72bdf",
+  "id" : "96c7fdd0-cb72-41ee-acdc-17b0f57e4bfa",
   "pk" : "Alexander Shtuchkin <ashtuchkin@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Alexander Shtuchkin <ashtuchkin@gmail.com>"
+  "cacheKey" : "author|Alexander Shtuchkin <ashtuchkin@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Alexandru Mărășteanu <hello@alexei.ro>",
-  "id" : "2565e3c4-67fc-4b5f-af7d-1e871f51a46c",
+  "id" : "0f75678e-5d9b-415d-bc4b-573c9c9aae13",
   "pk" : "Alexandru Mărășteanu <hello@alexei.ro>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Alexandru Mărășteanu <hello@alexei.ro>"
+  "cacheKey" : "author|Alexandru Mărășteanu <hello@alexei.ro>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Andrea Giammarchi",
-  "id" : "63497ebc-a25a-46ec-89e2-79b7108a4c74",
+  "id" : "f19301c2-d163-4675-ab22-3359c0b40ded",
   "pk" : "Andrea Giammarchi",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Andrea Giammarchi"
+  "cacheKey" : "author|Andrea Giammarchi",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Andres Suarez <zertosh@gmail.com>",
-  "id" : "a88553b1-082f-4866-92f0-9de8402fe531",
+  "id" : "b376d477-c708-4e99-97e8-3f12319a8fb8",
   "pk" : "Andres Suarez <zertosh@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Andres Suarez <zertosh@gmail.com>"
+  "cacheKey" : "author|Andres Suarez <zertosh@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Andrew Kelley <superjoe30@gmail.com>",
-  "id" : "cb71eee3-0e73-4c43-9527-c64d26aa3e15",
+  "id" : "6ed146c5-543d-417d-ae4a-b96f6cb55ecb",
   "pk" : "Andrew Kelley <superjoe30@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Andrew Kelley <superjoe30@gmail.com>"
+  "cacheKey" : "author|Andrew Kelley <superjoe30@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Andrey Sidorov <sidorares@yandex.com>",
-  "id" : "9a83b888-37c6-413b-91b3-d7c379764683",
+  "id" : "f8bbebdd-e7be-4007-8368-97ae288b501c",
   "pk" : "Andrey Sidorov <sidorares@yandex.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Andrey Sidorov <sidorares@yandex.com>"
+  "cacheKey" : "author|Andrey Sidorov <sidorares@yandex.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Andrey Sidorov <sidorares@yandex.ru>",
-  "id" : "77635826-f51c-45eb-8eec-77e62f3fb784",
+  "id" : "81253fe7-2eb3-4c20-80a2-ff58ee2754fc",
   "pk" : "Andrey Sidorov <sidorares@yandex.ru>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Andrey Sidorov <sidorares@yandex.ru>"
+  "cacheKey" : "author|Andrey Sidorov <sidorares@yandex.ru>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "André Cruz <andre@moxy.studio>",
-  "id" : "85db5021-f9f0-4969-93a8-c2eb3afa590c",
+  "id" : "8adf40d4-01a4-407c-914a-c371e875d02a",
   "pk" : "André Cruz <andre@moxy.studio>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|André Cruz <andre@moxy.studio>"
+  "cacheKey" : "author|André Cruz <andre@moxy.studio>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Anna Henningsen <anna@addaleax.net>",
-  "id" : "4f65b5f9-8293-40c2-9431-c77307f37cd7",
+  "id" : "95068dc1-2529-4839-9265-9d58de4535f6",
   "pk" : "Anna Henningsen <anna@addaleax.net>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Anna Henningsen <anna@addaleax.net>"
+  "cacheKey" : "author|Anna Henningsen <anna@addaleax.net>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Apache TinkerPop team",
-  "id" : "e8fcf51a-7b35-49f4-aad1-a24af8eeb3c0",
+  "id" : "61dc1136-6400-4861-90ae-558742d0de22",
   "pk" : "Apache TinkerPop team",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Apache TinkerPop team"
+  "cacheKey" : "author|Apache TinkerPop team",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Ariya Hidayat <ariya.hidayat@gmail.com>",
-  "id" : "5e204f94-149d-4195-aafd-46417550a7d4",
+  "id" : "26d26e71-6de8-4032-8ba4-f0ddec1b6b9e",
   "pk" : "Ariya Hidayat <ariya.hidayat@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Ariya Hidayat <ariya.hidayat@gmail.com>"
+  "cacheKey" : "author|Ariya Hidayat <ariya.hidayat@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Arnout Kazemier",
-  "id" : "9fd537d4-38fd-4eed-b88d-5dc40659e7b8",
+  "id" : "b800a929-c435-4955-90e1-5ec69601212d",
   "pk" : "Arnout Kazemier",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Arnout Kazemier"
+  "cacheKey" : "author|Arnout Kazemier",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Ben Coe <ben@npmjs.com>",
-  "id" : "56462532-72ef-4e27-be1f-73782df7d68a",
+  "id" : "08f8dbcc-8733-4fe9-96c5-a680e0d12445",
   "pk" : "Ben Coe <ben@npmjs.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Ben Coe <ben@npmjs.com>"
+  "cacheKey" : "author|Ben Coe <ben@npmjs.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Ben Drucker <bvdrucker@gmail.com> (bendrucker.me)",
-  "id" : "bfcd5bda-3116-424a-b221-ea28e01b4025",
+  "id" : "56507cbc-760c-4996-b8c6-9895f816f885",
   "pk" : "Ben Drucker <bvdrucker@gmail.com> (bendrucker.me)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Ben Drucker <bvdrucker@gmail.com> (bendrucker.me)"
+  "cacheKey" : "author|Ben Drucker <bvdrucker@gmail.com> (bendrucker.me)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Ben Newman <bn@cs.stanford.edu>",
-  "id" : "1a4c8f5d-979e-4cac-9767-acff36e1349e",
+  "id" : "bd85f7c1-3bb6-4a92-b85c-6500feeb0bd8",
   "pk" : "Ben Newman <bn@cs.stanford.edu>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Ben Newman <bn@cs.stanford.edu>"
+  "cacheKey" : "author|Ben Newman <bn@cs.stanford.edu>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
-  "id" : "45b9fb49-329a-4b32-9886-cb8ab53e2a81",
+  "id" : "37467760-3c20-409e-81ee-ec4e547e0c11",
   "pk" : "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)"
+  "cacheKey" : "author|Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Blake Embrey <hello@blakeembrey.com> (http://blakeembrey.me)",
-  "id" : "26f2daac-08f5-431c-8543-28202885c77f",
+  "id" : "2d424477-9a2a-4bcf-b8d8-22d769f0f1a5",
   "pk" : "Blake Embrey <hello@blakeembrey.com> (http://blakeembrey.me)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Blake Embrey <hello@blakeembrey.com> (http://blakeembrey.me)"
+  "cacheKey" : "author|Blake Embrey <hello@blakeembrey.com> (http://blakeembrey.me)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Braveg1rl <braveg1rl@outlook.com>",
-  "id" : "0a9ca007-770f-4968-83c5-745ea6d94900",
+  "id" : "9f3bb14b-2b3d-49a9-80d3-25f25ebc0a06",
   "pk" : "Braveg1rl <braveg1rl@outlook.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Braveg1rl <braveg1rl@outlook.com>"
+  "cacheKey" : "author|Braveg1rl <braveg1rl@outlook.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Brian Carlson <brian.m.carlson@gmail.com>",
-  "id" : "785b98f4-2f30-4ed7-8b10-52e2bb661d49",
+  "id" : "402d1bf0-008d-4d95-a985-0a5a9ebed236",
   "pk" : "Brian Carlson <brian.m.carlson@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Brian Carlson <brian.m.carlson@gmail.com>"
+  "cacheKey" : "author|Brian Carlson <brian.m.carlson@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Brian J Brennan",
-  "id" : "86c097c7-296b-4f76-8300-13bd21106721",
+  "id" : "55ff4af7-0981-44a0-928b-f63363e188b8",
   "pk" : "Brian J Brennan",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Brian J Brennan"
+  "cacheKey" : "author|Brian J Brennan",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Brian J. Brennan <brianloveswords@gmail.com>",
-  "id" : "0ed532d2-c16f-4a7d-aac0-c1f6f569a4ba",
+  "id" : "7e3c32b6-baf4-45d5-892f-72843ab894e7",
   "pk" : "Brian J. Brennan <brianloveswords@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Brian J. Brennan <brianloveswords@gmail.com>"
+  "cacheKey" : "author|Brian J. Brennan <brianloveswords@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Brian M. Carlson",
-  "id" : "c5b11edc-9282-4d51-b891-d12abe557235",
+  "id" : "0e6749ca-fc6c-4eac-995b-3e0aaeb459d7",
   "pk" : "Brian M. Carlson",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Brian M. Carlson"
+  "cacheKey" : "author|Brian M. Carlson",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Brian Turek <brian.turek@gmail.com>",
-  "id" : "7931fc98-d147-4329-ac8d-96703461f4ad",
+  "id" : "b8ecc1ca-901b-41ca-974e-209a7de50cd1",
   "pk" : "Brian Turek <brian.turek@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Brian Turek <brian.turek@gmail.com>"
+  "cacheKey" : "author|Brian Turek <brian.turek@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Brian Woodward (https://github.com/doowb)",
-  "id" : "430b9c31-413f-4ed2-b201-359b1fb72b35",
+  "id" : "d684686c-c27d-4643-b5d3-1f054a6edc19",
   "pk" : "Brian Woodward (https://github.com/doowb)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Brian Woodward (https://github.com/doowb)"
+  "cacheKey" : "author|Brian Woodward (https://github.com/doowb)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Cameron McCormack (http://mcc.id.au/xpathjs)",
-  "id" : "19f2b810-2d8b-46bf-8805-e03c171ea5b4",
+  "id" : "de412e3e-c43e-4b6c-8304-a3b3bf960141",
   "pk" : "Cameron McCormack (http://mcc.id.au/xpathjs)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Cameron McCormack (http://mcc.id.au/xpathjs)"
+  "cacheKey" : "author|Cameron McCormack (http://mcc.id.au/xpathjs)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Caolan McMahon",
-  "id" : "38c23e4e-6ca6-4480-8e06-dee340d01516",
+  "id" : "bd356df7-94ac-4c5e-b065-292a831cd2bd",
   "pk" : "Caolan McMahon",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Caolan McMahon"
+  "cacheKey" : "author|Caolan McMahon",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Chris Joakim",
-  "id" : "53c2f69f-ec11-42e3-b5b6-b36c46c5bbac",
+  "id" : "1bd3abcc-2453-442a-b8e3-0d3a940d3a0d",
   "pk" : "Chris Joakim",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Chris Joakim"
+  "cacheKey" : "author|Chris Joakim",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Chris O'Hara <cohara87@gmail.com>",
-  "id" : "3deba116-b32f-459c-82a0-00c2f4ac44a4",
+  "id" : "b5112b49-86c7-41ce-9cbb-e5199c96d674",
   "pk" : "Chris O'Hara <cohara87@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Chris O'Hara <cohara87@gmail.com>"
+  "cacheKey" : "author|Chris O'Hara <cohara87@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Christopher Hiller <boneskull@boneskull.com> (https://boneskull.com/)",
-  "id" : "39df4e09-25de-4f4d-a5e2-b010793b042b",
+  "id" : "3d6dc0eb-6d05-4460-b4d5-da4fabdc2b53",
   "pk" : "Christopher Hiller <boneskull@boneskull.com> (https://boneskull.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Christopher Hiller <boneskull@boneskull.com> (https://boneskull.com/)"
+  "cacheKey" : "author|Christopher Hiller <boneskull@boneskull.com> (https://boneskull.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Christopher Joakim (http://www.chrisjoakim.com)",
-  "id" : "5dc181ad-1f5e-4c52-a7ad-0bd48becd366",
+  "id" : "7d0e8179-0039-48de-82dc-4a1571730292",
   "pk" : "Christopher Joakim (http://www.chrisjoakim.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Christopher Joakim (http://www.chrisjoakim.com)"
+  "cacheKey" : "author|Christopher Joakim (http://www.chrisjoakim.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
-  "id" : "198f2548-8f27-48f4-a45b-09478eef4023",
+  "id" : "47f3c4d9-4195-4e9f-ab08-d87544ff181e",
   "pk" : "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)"
+  "cacheKey" : "author|Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "D2L Corporation",
-  "id" : "108b0202-8413-4809-80ca-0d3d67d128d3",
+  "id" : "5af39423-3d08-4674-9ebe-5449f5d75eae",
   "pk" : "D2L Corporation",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|D2L Corporation"
+  "cacheKey" : "author|D2L Corporation",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "DY <dfcreative@gmail.com>",
-  "id" : "42179f19-04ba-42be-b1b7-3caa93e15c72",
+  "id" : "aeb41263-9f1a-4c4a-b649-0e3fcc01ac1e",
   "pk" : "DY <dfcreative@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|DY <dfcreative@gmail.com>"
+  "cacheKey" : "author|DY <dfcreative@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Dane Springmeyer <dane@mapbox.com>",
-  "id" : "66076f95-33b6-4c88-9c16-1d29f47f28fb",
+  "id" : "3b136835-183d-43ef-bb49-5a2c3744391e",
   "pk" : "Dane Springmeyer <dane@mapbox.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Dane Springmeyer <dane@mapbox.com>"
+  "cacheKey" : "author|Dane Springmeyer <dane@mapbox.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Dang Mai",
-  "id" : "05a32900-d51d-4033-9000-5ae9379a2c20",
+  "id" : "b2f57a87-ae59-46b8-bceb-d6ca405d0cc0",
   "pk" : "Dang Mai",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Dang Mai"
+  "cacheKey" : "author|Dang Mai",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Daniel Wirtz <dcode@dcode.io>",
-  "id" : "280e06c1-cf7c-41e3-89eb-2f73a7781653",
+  "id" : "289a6d78-5976-4464-ac49-4a8545017289",
   "pk" : "Daniel Wirtz <dcode@dcode.io>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Daniel Wirtz <dcode@dcode.io>"
+  "cacheKey" : "author|Daniel Wirtz <dcode@dcode.io>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "David Frank",
-  "id" : "9ae6c9c8-ec9d-46f5-af17-e2f99307345d",
+  "id" : "a360bd82-4f16-4b45-8e12-284cd0afc566",
   "pk" : "David Frank",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|David Frank"
+  "cacheKey" : "author|David Frank",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "David Mark Clements <david.clements@nearform.com>",
-  "id" : "ba70a81e-cb03-428e-b54f-206b02d5d128",
+  "id" : "f58381bc-5000-4919-acb4-a9604cd17c36",
   "pk" : "David Mark Clements <david.clements@nearform.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|David Mark Clements <david.clements@nearform.com>"
+  "cacheKey" : "author|David Mark Clements <david.clements@nearform.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "David Worms <david@adaltas.com>",
-  "id" : "aa93be9f-8294-414b-974c-f579abc88d3c",
+  "id" : "8b7d4851-25e4-4c60-9070-f854199642ec",
   "pk" : "David Worms <david@adaltas.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|David Worms <david@adaltas.com>"
+  "cacheKey" : "author|David Worms <david@adaltas.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "David Worms <david@adaltas.com> (http://www.adaltas.com)",
-  "id" : "4169a3a1-f487-4759-bdd0-93fefc67becc",
+  "id" : "26b0b4d8-f769-4f36-9d72-b725cac6c0ee",
   "pk" : "David Worms <david@adaltas.com> (http://www.adaltas.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|David Worms <david@adaltas.com> (http://www.adaltas.com)"
+  "cacheKey" : "author|David Worms <david@adaltas.com> (http://www.adaltas.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Devon Govett <devongovett@gmail.com>",
-  "id" : "7a619033-f316-43f2-8bdc-d232865b3336",
+  "id" : "57569d3b-5b3a-4866-a3d6-4780984316e5",
   "pk" : "Devon Govett <devongovett@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Devon Govett <devongovett@gmail.com>"
+  "cacheKey" : "author|Devon Govett <devongovett@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Devon Govett <devongovett@gmail.com> (http://badassjs.com/)",
-  "id" : "4e197f2f-55a7-41fb-aaff-ab4f0c97d3a0",
+  "id" : "02d1c422-fd44-4b9e-99be-c0d9d6d42b0b",
   "pk" : "Devon Govett <devongovett@gmail.com> (http://badassjs.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Devon Govett <devongovett@gmail.com> (http://badassjs.com/)"
+  "cacheKey" : "author|Devon Govett <devongovett@gmail.com> (http://badassjs.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
-  "id" : "bb9cbfcf-7494-46b3-a916-8f425792f620",
+  "id" : "86606721-99f3-45e5-8047-222988b8554f",
   "pk" : "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)"
+  "cacheKey" : "author|Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)",
-  "id" : "93a0365f-e78d-4eed-921b-1a04eb3b64e4",
+  "id" : "adb187a0-32c2-4b66-a527-e2689a6cba77",
   "pk" : "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)"
+  "cacheKey" : "author|Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
-  "id" : "950ec1e2-b841-4da6-b377-30460d05576f",
+  "id" : "9010104b-5942-45b6-8fde-a9efac027e47",
   "pk" : "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)"
+  "cacheKey" : "author|Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Douglas Christopher Wilson <doug@somethingdoug.com>",
-  "id" : "1a4adb85-fc9b-4caf-91f5-28cdb58eb493",
+  "id" : "1c6ab937-dd8c-4907-9e7f-86acb13e17c7",
   "pk" : "Douglas Christopher Wilson <doug@somethingdoug.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Douglas Christopher Wilson <doug@somethingdoug.com>"
+  "cacheKey" : "author|Douglas Christopher Wilson <doug@somethingdoug.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Einar Otto Stangvik <einaros@gmail.com> (http://2x.io)",
-  "id" : "4e071585-e31b-434d-8948-597c08e6e934",
+  "id" : "3ab23177-64d0-4e19-ae94-37506af61acb",
   "pk" : "Einar Otto Stangvik <einaros@gmail.com> (http://2x.io)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Einar Otto Stangvik <einaros@gmail.com> (http://2x.io)"
+  "cacheKey" : "author|Einar Otto Stangvik <einaros@gmail.com> (http://2x.io)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Elan Shanker (https://github.com/es128)",
-  "id" : "ce5bff53-9d4b-4f57-8ae3-36357dbfdd3e",
+  "id" : "a60ad86f-bbba-4bae-8534-3391a7d59180",
   "pk" : "Elan Shanker (https://github.com/es128)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Elan Shanker (https://github.com/es128)"
+  "cacheKey" : "author|Elan Shanker (https://github.com/es128)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Electron Community",
-  "id" : "8ca8d157-d56c-43a9-8f29-ba0836b75d7e",
+  "id" : "f81b698b-4b27-4add-a00d-209bea2733a5",
   "pk" : "Electron Community",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Electron Community"
+  "cacheKey" : "author|Electron Community",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Espen Hovlandsdal <espen@hovlandsdal.com>",
-  "id" : "90f4ca57-0c69-4049-af6a-6905faf3077d",
+  "id" : "ab5ba1ed-5dd3-4682-adaf-73ccb768e3dd",
   "pk" : "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Espen Hovlandsdal <espen@hovlandsdal.com>"
+  "cacheKey" : "author|Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Evan Vosberg (http://github.com/evanvosberg)",
-  "id" : "3f766ad0-283a-40c9-b29b-a922ecef84f2",
+  "id" : "52ad25e6-0768-41cb-ba5c-2450eb947847",
   "pk" : "Evan Vosberg (http://github.com/evanvosberg)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Evan Vosberg (http://github.com/evanvosberg)"
+  "cacheKey" : "author|Evan Vosberg (http://github.com/evanvosberg)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Evgeny Poberezkin",
-  "id" : "34f98ad1-4991-49b3-9205-f32029b9ecff",
+  "id" : "4f4e0a17-55de-4376-a44d-ec2af70db13d",
   "pk" : "Evgeny Poberezkin",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Evgeny Poberezkin"
+  "cacheKey" : "author|Evgeny Poberezkin",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Felix Becker",
-  "id" : "b9285501-8c5e-4ad1-82bb-dc1e59c33463",
+  "id" : "4db70a9d-a39e-49ae-9d9c-a67701caa2cc",
   "pk" : "Felix Becker",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Felix Becker"
+  "cacheKey" : "author|Felix Becker",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
-  "id" : "03d36af3-ad6b-40eb-bd88-f2082ae712ae",
+  "id" : "8b065065-febe-4c1e-8657-46e4e4f992f1",
   "pk" : "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)"
+  "cacheKey" : "author|Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Feross Aboukhadijeh <feross@feross.org> (http://feross.org)",
-  "id" : "8c646498-2636-42ec-aaaf-0d68a95cd4a2",
+  "id" : "184e224a-2a20-4089-8710-6f1093747260",
   "pk" : "Feross Aboukhadijeh <feross@feross.org> (http://feross.org)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Feross Aboukhadijeh <feross@feross.org> (http://feross.org)"
+  "cacheKey" : "author|Feross Aboukhadijeh <feross@feross.org> (http://feross.org)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
-  "id" : "7fc59feb-2afe-45d8-9ff8-6bafbe8d3740",
+  "id" : "04a661b5-8171-4d45-82a3-e0bd2abe9b2a",
   "pk" : "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)"
+  "cacheKey" : "author|Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Feross Aboukhadijeh <feross@feross.org> (https://feross.org)",
-  "id" : "ff610924-ef10-4fc6-ada0-47b9739a0dc6",
+  "id" : "cd45419c-e3ac-4cef-b6fa-886c34cdb46e",
   "pk" : "Feross Aboukhadijeh <feross@feross.org> (https://feross.org)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Feross Aboukhadijeh <feross@feross.org> (https://feross.org)"
+  "cacheKey" : "author|Feross Aboukhadijeh <feross@feross.org> (https://feross.org)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Forbes Lindesay",
-  "id" : "93245465-bb49-4987-a4b4-f66e49c56fda",
+  "id" : "0abbc60c-e1a4-40b5-99b1-332879ee957a",
   "pk" : "Forbes Lindesay",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Forbes Lindesay"
+  "cacheKey" : "author|Forbes Lindesay",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "ForbesLindesay",
-  "id" : "8f75d027-990c-4785-baf6-cd7796551be7",
+  "id" : "943de4f2-e077-4e83-8b02-bdf861e97864",
   "pk" : "ForbesLindesay",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|ForbesLindesay"
+  "cacheKey" : "author|ForbesLindesay",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Gal Koren",
-  "id" : "7fbc8e16-23d1-4b21-9a1b-ddaf6e945758",
+  "id" : "8bdd86d7-ea9c-495b-905c-b59b9b4b6484",
   "pk" : "Gal Koren",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Gal Koren"
+  "cacheKey" : "author|Gal Koren",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Gareth Jones <gareth.nomiddlename@gmail.com>",
-  "id" : "c58afb68-a344-4e62-afe3-c3d0c6935a0a",
+  "id" : "505916e0-b5ee-474d-9956-a9c7e228168c",
   "pk" : "Gareth Jones <gareth.nomiddlename@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Gareth Jones <gareth.nomiddlename@gmail.com>"
+  "cacheKey" : "author|Gareth Jones <gareth.nomiddlename@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Gary Court <gary.court@gmail.com>",
-  "id" : "a450ae16-3ba3-47c3-9401-0fade40ad02c",
+  "id" : "85b94fad-6f30-4458-9955-d3bf7b46e316",
   "pk" : "Gary Court <gary.court@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Gary Court <gary.court@gmail.com>"
+  "cacheKey" : "author|Gary Court <gary.court@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "George Zahariev <z@georgezahariev.com>",
-  "id" : "cc79b8f9-b0df-4a49-a13d-b8298a96a4f8",
+  "id" : "ed005b9a-ce58-4319-bf67-8500dedda5f2",
   "pk" : "George Zahariev <z@georgezahariev.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|George Zahariev <z@georgezahariev.com>"
+  "cacheKey" : "author|George Zahariev <z@georgezahariev.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "GoInstant Inc., a salesforce.com company",
-  "id" : "0755c456-f7a6-4341-8bfe-ec9200d732ec",
+  "id" : "1eabc5e9-1069-4315-ae90-78b87711869e",
   "pk" : "GoInstant Inc., a salesforce.com company",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|GoInstant Inc., a salesforce.com company"
+  "cacheKey" : "author|GoInstant Inc., a salesforce.com company",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Gregor Martynus (https://github.com/gr2m)",
-  "id" : "eec6dc47-3c82-4ad0-8c63-c3a91309ea34",
+  "id" : "91d32da6-50e2-4008-bf81-c266b7d9cead",
   "pk" : "Gregor Martynus (https://github.com/gr2m)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Gregor Martynus (https://github.com/gr2m)"
+  "cacheKey" : "author|Gregor Martynus (https://github.com/gr2m)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Grunt Development Team (http://gruntjs.com/development-team)",
-  "id" : "672e5f4e-dcc7-447f-8dd8-8cdad27625d8",
+  "id" : "9ce60133-b4ef-4c2a-af26-88d727dfe912",
   "pk" : "Grunt Development Team (http://gruntjs.com/development-team)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Grunt Development Team (http://gruntjs.com/development-team)"
+  "cacheKey" : "author|Grunt Development Team (http://gruntjs.com/development-team)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Grunt Development Team (https://gruntjs.com/development-team)",
-  "id" : "099fc5f2-3220-4103-8b3a-dba23385a105",
+  "id" : "407b9a21-4eb4-443e-aefe-59e6d263a00b",
   "pk" : "Grunt Development Team (https://gruntjs.com/development-team)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Grunt Development Team (https://gruntjs.com/development-team)"
+  "cacheKey" : "author|Grunt Development Team (https://gruntjs.com/development-team)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Guillermo Rauch <guillermo@learnboost.com>",
-  "id" : "e5f8fe4e-a7a6-4085-828d-f29801d0b5ae",
+  "id" : "c9779f36-3c93-4426-8b95-6b447de84374",
   "pk" : "Guillermo Rauch <guillermo@learnboost.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Guillermo Rauch <guillermo@learnboost.com>"
+  "cacheKey" : "author|Guillermo Rauch <guillermo@learnboost.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
-  "id" : "f64abc7f-f1f5-4902-aa77-ebb6c5910508",
+  "id" : "ad3bf575-f90b-423d-9df6-1682ca2e1e2d",
   "pk" : "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Gulp Team <team@gulpjs.com> (http://gulpjs.com/)"
+  "cacheKey" : "author|Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
-  "id" : "a9070b27-2b12-43b7-9dad-26aedfca4df1",
+  "id" : "1542a703-8af0-4541-bd2d-6fd424eefffd",
   "pk" : "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Gulp Team <team@gulpjs.com> (https://gulpjs.com/)"
+  "cacheKey" : "author|Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Hannes Hörl <hannes.hoerl+pgpass@snowreporter.com>",
-  "id" : "50a43c42-2a57-4d51-8320-debe41453859",
+  "id" : "e6933847-53bf-4695-b25e-114bbbf16f9f",
   "pk" : "Hannes Hörl <hannes.hoerl+pgpass@snowreporter.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Hannes Hörl <hannes.hoerl+pgpass@snowreporter.com>"
+  "cacheKey" : "author|Hannes Hörl <hannes.hoerl+pgpass@snowreporter.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Heather Arthur <fayearthur@gmail.com>",
-  "id" : "a54163ac-3a53-4900-aac3-e635d0cd0533",
+  "id" : "ee21ffac-f4ca-4524-ba2e-e0748c655a4f",
   "pk" : "Heather Arthur <fayearthur@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Heather Arthur <fayearthur@gmail.com>"
+  "cacheKey" : "author|Heather Arthur <fayearthur@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
-  "id" : "0a1b616d-b62a-416f-aaa5-96104f561b3f",
+  "id" : "141eb65a-de84-4c32-bb7b-9c3d2039bd66",
   "pk" : "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)"
+  "cacheKey" : "author|Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
-  "id" : "a5707ab0-0712-40fd-b9b9-4fa732941da8",
+  "id" : "d7314bfa-dbbf-4344-bf4d-9e7568eb70b0",
   "pk" : "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)"
+  "cacheKey" : "author|Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Invertase <oss@invertase.io> (http://github.com/invertase/)",
-  "id" : "3328893f-c7da-470b-934d-8a0ce4550e08",
+  "id" : "0ca2d94a-191e-463b-baa7-72c9eea064cf",
   "pk" : "Invertase <oss@invertase.io> (http://github.com/invertase/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Invertase <oss@invertase.io> (http://github.com/invertase/)"
+  "cacheKey" : "author|Invertase <oss@invertase.io> (http://github.com/invertase/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Irakli Gozalishvili <rfobic@gmail.com>",
-  "id" : "68bcc6be-fe3f-4711-959b-b49524946c1c",
+  "id" : "2690e638-9e8a-4c16-bf4a-7fdfaf37b0a3",
   "pk" : "Irakli Gozalishvili <rfobic@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Irakli Gozalishvili <rfobic@gmail.com>"
+  "cacheKey" : "author|Irakli Gozalishvili <rfobic@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
-  "id" : "81335484-2ab7-4892-b580-f34a0bdfabe0",
+  "id" : "342caba8-307c-4d5e-b00c-611219f223d2",
   "pk" : "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)"
+  "cacheKey" : "author|Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Isaac Z. Schlueter <i@izs.me>",
-  "id" : "2ca9dc26-320e-427e-8ace-488211377f66",
+  "id" : "03fe2266-f94c-4855-9def-cb4f2ab14226",
   "pk" : "Isaac Z. Schlueter <i@izs.me>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Isaac Z. Schlueter <i@izs.me>"
+  "cacheKey" : "author|Isaac Z. Schlueter <i@izs.me>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
-  "id" : "e5b38de8-20ea-42ff-a9fd-6dff23867ce9",
+  "id" : "d8168922-1bef-4b84-a6bb-8d8cd54c0f3c",
   "pk" : "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)"
+  "cacheKey" : "author|Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
-  "id" : "3b9b5f81-922a-42c2-8bf3-537bd8072491",
+  "id" : "c3c0b9bc-a2d7-402d-baf8-ee984915566d",
   "pk" : "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)"
+  "cacheKey" : "author|Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Iskren Ivov Chernev <iskren.chernev@gmail.com> (https://github.com/ichernev)",
-  "id" : "12c4b825-b7c6-4869-9441-4be8bafb0dee",
+  "id" : "5e6b6ea0-794f-4843-8244-80c34f629ed2",
   "pk" : "Iskren Ivov Chernev <iskren.chernev@gmail.com> (https://github.com/ichernev)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Iskren Ivov Chernev <iskren.chernev@gmail.com> (https://github.com/ichernev)"
+  "cacheKey" : "author|Iskren Ivov Chernev <iskren.chernev@gmail.com> (https://github.com/ichernev)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "JP Richardson <jprichardson@gmail.com>",
-  "id" : "d0cbd004-619e-4d1d-9cad-63fb97cf7427",
+  "id" : "65c63148-08c0-4fcf-b7ac-b8bcff553ff0",
   "pk" : "JP Richardson <jprichardson@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|JP Richardson <jprichardson@gmail.com>"
+  "cacheKey" : "author|JP Richardson <jprichardson@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jakub Pawlowicz <contact@jakubpawlowicz.com> (http://twitter.com/jakubpawlowicz)",
-  "id" : "a292c970-a521-41eb-8eff-862a6eee6032",
+  "id" : "80bec75e-395a-4203-9f7e-70d9260acde3",
   "pk" : "Jakub Pawlowicz <contact@jakubpawlowicz.com> (http://twitter.com/jakubpawlowicz)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jakub Pawlowicz <contact@jakubpawlowicz.com> (http://twitter.com/jakubpawlowicz)"
+  "cacheKey" : "author|Jakub Pawlowicz <contact@jakubpawlowicz.com> (http://twitter.com/jakubpawlowicz)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "James Cooper <james@bitmechanic.com>",
-  "id" : "1d714372-975e-4711-a0a3-395e6df8cf66",
+  "id" : "7d3b7a54-bae0-4721-bace-9a241ab4ce48",
   "pk" : "James Cooper <james@bitmechanic.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|James Cooper <james@bitmechanic.com>"
+  "cacheKey" : "author|James Cooper <james@bitmechanic.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "James Halliday <mail@substack.net> (http://substack.net)",
-  "id" : "e0ef6dd7-cc3d-4227-ad0c-ecb75a96e723",
+  "id" : "59414867-fb15-4611-b749-24a236212d34",
   "pk" : "James Halliday <mail@substack.net> (http://substack.net)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|James Halliday <mail@substack.net> (http://substack.net)"
+  "cacheKey" : "author|James Halliday <mail@substack.net> (http://substack.net)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jano González <info@janogonzalez.com>",
-  "id" : "37b7a106-5194-422e-b5b2-5ddecbf843c8",
+  "id" : "1a5781ee-a27a-461f-8ea1-9b052e824045",
   "pk" : "Jano González <info@janogonzalez.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jano González <info@janogonzalez.com>"
+  "cacheKey" : "author|Jano González <info@janogonzalez.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
-  "id" : "9da0c067-de3b-4ae6-8bc4-04b241f4db45",
+  "id" : "d2aca687-58e5-4efb-9929-35746a326a0f",
   "pk" : "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)"
+  "cacheKey" : "author|Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jason Mulligan <jason.mulligan@avoidwork.com>",
-  "id" : "1d661d46-b619-45a5-b016-e963db1dd670",
+  "id" : "eb7437af-bc9b-4ddc-8fec-475b33710c63",
   "pk" : "Jason Mulligan <jason.mulligan@avoidwork.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jason Mulligan <jason.mulligan@avoidwork.com>"
+  "cacheKey" : "author|Jason Mulligan <jason.mulligan@avoidwork.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Javier Blanco <http://jbgutierrez.info>",
-  "id" : "6399bf3c-7167-4e52-aaad-c7602cb28b89",
+  "id" : "6d19a5d0-3427-46bf-8fb4-4c4b5ecd4660",
   "pk" : "Javier Blanco <http://jbgutierrez.info>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Javier Blanco <http://jbgutierrez.info>"
+  "cacheKey" : "author|Javier Blanco <http://jbgutierrez.info>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jeff Wilcox <jeffwilcox+github@gmail.com>",
-  "id" : "f6dd63cf-956a-4390-a050-d1a9d6f2d38a",
+  "id" : "98b3f256-e6c2-4b07-bf30-86531a641a5c",
   "pk" : "Jeff Wilcox <jeffwilcox+github@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jeff Wilcox <jeffwilcox+github@gmail.com>"
+  "cacheKey" : "author|Jeff Wilcox <jeffwilcox+github@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jens Taylor <jensyt@gmail.com> (https://github.com/homebrewing)",
-  "id" : "4ce41423-39c6-49d8-9850-0f5d5eb2ea38",
+  "id" : "26af1015-2dc1-4183-bf9f-1469f48fc4fb",
   "pk" : "Jens Taylor <jensyt@gmail.com> (https://github.com/homebrewing)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jens Taylor <jensyt@gmail.com> (https://github.com/homebrewing)"
+  "cacheKey" : "author|Jens Taylor <jensyt@gmail.com> (https://github.com/homebrewing)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jeremie Miller <jeremie@jabber.org> (http://jeremie.com/)",
-  "id" : "0fb665c1-5000-42d4-afe2-99edd40e5abb",
+  "id" : "3cca475c-ec6e-4ec0-88e0-cfe1e8ab1afa",
   "pk" : "Jeremie Miller <jeremie@jabber.org> (http://jeremie.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jeremie Miller <jeremie@jabber.org> (http://jeremie.com/)"
+  "cacheKey" : "author|Jeremie Miller <jeremie@jabber.org> (http://jeremie.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jeremy Ashkenas",
-  "id" : "bcdf6cc0-2bd0-4693-9368-4569a5e6dbf8",
+  "id" : "c46f0f7a-c587-44f0-96b8-22eae8cd56d2",
   "pk" : "Jeremy Ashkenas",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jeremy Ashkenas"
+  "cacheKey" : "author|Jeremy Ashkenas",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jeremy Ashkenas <jeremy@documentcloud.org>",
-  "id" : "5c747cb7-bde6-430b-b598-1a6a49312cf5",
+  "id" : "e54985c4-2561-4fac-9952-3812956c3032",
   "pk" : "Jeremy Ashkenas <jeremy@documentcloud.org>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jeremy Ashkenas <jeremy@documentcloud.org>"
+  "cacheKey" : "author|Jeremy Ashkenas <jeremy@documentcloud.org>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jeremy Stashewsky <jstash@gmail.com>",
-  "id" : "d340bcc0-4f1a-44a0-80e4-ce3941494263",
+  "id" : "827053c2-ad73-484c-b5f2-9a4d3e74b56e",
   "pk" : "Jeremy Stashewsky <jstash@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jeremy Stashewsky <jstash@gmail.com>"
+  "cacheKey" : "author|Jeremy Stashewsky <jstash@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jerry Sievert <code@legitimatesounding.com> (http://legitimatesounding.com/blog/)",
-  "id" : "45444c5c-4a3e-403d-afa7-de4640a121c2",
+  "id" : "799219ea-36b3-4a9f-a623-c384df983a8f",
   "pk" : "Jerry Sievert <code@legitimatesounding.com> (http://legitimatesounding.com/blog/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jerry Sievert <code@legitimatesounding.com> (http://legitimatesounding.com/blog/)"
+  "cacheKey" : "author|Jerry Sievert <code@legitimatesounding.com> (http://legitimatesounding.com/blog/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jim Palmer (based on chunking idea from Dave Koelle, packaged by @khous of Bill4Time)",
-  "id" : "acdd2696-9701-483b-9863-467e27477f70",
+  "id" : "ba92c0d3-79d2-4a23-85c1-fe9a70ee27cf",
   "pk" : "Jim Palmer (based on chunking idea from Dave Koelle, packaged by @khous of Bill4Time)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jim Palmer (based on chunking idea from Dave Koelle, packaged by @khous of Bill4Time)"
+  "cacheKey" : "author|Jim Palmer (based on chunking idea from Dave Koelle, packaged by @khous of Bill4Time)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "John-David Dalton <john.david.dalton@gmail.com>",
-  "id" : "193fdbd8-4bca-4550-9a4d-bedf703b08be",
+  "id" : "b38c9e66-09e2-4a50-b2d3-34835519940e",
   "pk" : "John-David Dalton <john.david.dalton@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|John-David Dalton <john.david.dalton@gmail.com>"
+  "cacheKey" : "author|John-David Dalton <john.david.dalton@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
-  "id" : "4074cae6-9567-4120-8041-46d7c91da041",
+  "id" : "90e6ee94-5bc1-4360-8781-b2aabd56982e",
   "pk" : "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)"
+  "cacheKey" : "author|John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "id" : "ae4f9a5d-8cef-4529-b3e0-fd840f6e6bf0",
+  "id" : "2c554bb0-0923-4eea-9b03-f58ba243ebd4",
   "pk" : "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jon Schlinkert (https://github.com/jonschlinkert)"
+  "cacheKey" : "author|Jon Schlinkert (https://github.com/jonschlinkert)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
-  "id" : "95e67ab0-5b55-4005-a962-39ced481f5a7",
+  "id" : "b7156114-425a-4022-a0f3-1a85c7787404",
   "pk" : "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+  "cacheKey" : "author|Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jordan Harband",
-  "id" : "c2d9fda4-c7a3-441f-80f8-cfdc9782417b",
+  "id" : "a968e521-22fc-42ed-80d3-99767661e946",
   "pk" : "Jordan Harband",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jordan Harband"
+  "cacheKey" : "author|Jordan Harband",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)",
-  "id" : "445281a9-7920-4675-9ad3-63f3aa23fdcf",
+  "id" : "b8a1540d-15f9-48cf-bf43-0519c82a0579",
   "pk" : "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)"
+  "cacheKey" : "author|Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Jos de Jong <wjosdejong@gmail.com> (https://github.com/josdejong)",
-  "id" : "49fc38a3-9a93-4823-993c-cf423199c8ce",
+  "id" : "0a26d176-403d-48b8-adfa-fbb535427b80",
   "pk" : "Jos de Jong <wjosdejong@gmail.com> (https://github.com/josdejong)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Jos de Jong <wjosdejong@gmail.com> (https://github.com/josdejong)"
+  "cacheKey" : "author|Jos de Jong <wjosdejong@gmail.com> (https://github.com/josdejong)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Josh Wolfe <thejoshwolfe@gmail.com>",
-  "id" : "ae4d4379-bacf-4a7e-8952-de0ed0dd7b1e",
+  "id" : "c1f183f1-5b71-4f7f-baba-ee95a02fd2a8",
   "pk" : "Josh Wolfe <thejoshwolfe@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Josh Wolfe <thejoshwolfe@gmail.com>"
+  "cacheKey" : "author|Josh Wolfe <thejoshwolfe@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Joyent (http://www.joyent.com)",
-  "id" : "4f91fbab-4a1d-4e9f-93ab-ee1bf07c2268",
+  "id" : "5fbde31c-db95-4e2a-8aa0-c012edaec160",
   "pk" : "Joyent (http://www.joyent.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Joyent (http://www.joyent.com)"
+  "cacheKey" : "author|Joyent (http://www.joyent.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Joyent (joyent.com)",
-  "id" : "22b750d6-7692-4485-b787-9a5df9aa5519",
+  "id" : "e10a04ff-78bd-4a31-8270-8acd2008b9eb",
   "pk" : "Joyent (joyent.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Joyent (joyent.com)"
+  "cacheKey" : "author|Joyent (joyent.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Joyent, Inc",
-  "id" : "9f9a56f1-8497-4881-99a9-5b0024c98a04",
+  "id" : "78d1a538-d2b1-4c97-ae63-ce1c214fafea",
   "pk" : "Joyent, Inc",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Joyent, Inc"
+  "cacheKey" : "author|Joyent, Inc",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)",
-  "id" : "a676f116-8c84-4acf-b89c-71b2472f0e66",
+  "id" : "4cb5ded3-f8c0-4886-992f-3ad741d328b6",
   "pk" : "Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)"
+  "cacheKey" : "author|Julian Gruber <mail@juliangruber.com> (http://juliangruber.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Kevin Martensson <kevinmartensson@gmail.com> (github.com/kevva)",
-  "id" : "de3cb118-bfab-4c46-89fc-9ad8e2ff5cb9",
+  "id" : "17c754a6-c6c0-4512-a97b-64c8d9b7472e",
   "pk" : "Kevin Martensson <kevinmartensson@gmail.com> (github.com/kevva)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Kevin Martensson <kevinmartensson@gmail.com> (github.com/kevva)"
+  "cacheKey" : "author|Kevin Martensson <kevinmartensson@gmail.com> (github.com/kevva)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Kevin Roark",
-  "id" : "ca558d77-16a9-42a8-b740-5598b2eaaa89",
+  "id" : "1e571b0f-ef51-498e-ba58-4d034b8bbcc3",
   "pk" : "Kevin Roark",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Kevin Roark"
+  "cacheKey" : "author|Kevin Roark",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Koichi Kobayashi <koichik@improvement.jp>",
-  "id" : "2942efea-28aa-4fe1-99db-0b230d56bda6",
+  "id" : "42a729c0-04c6-4766-bef9-17f54fe48fc9",
   "pk" : "Koichi Kobayashi <koichik@improvement.jp>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Koichi Kobayashi <koichik@improvement.jp>"
+  "cacheKey" : "author|Koichi Kobayashi <koichik@improvement.jp>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Kornel Lesiński <kornel@geekhood.net> (https://kornel.ski/)",
-  "id" : "2f4b56eb-4e8d-4c06-b68a-2b2d7bca0471",
+  "id" : "1dfc5e20-88d6-4846-925c-d0b032bca1de",
   "pk" : "Kornel Lesiński <kornel@geekhood.net> (https://kornel.ski/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Kornel Lesiński <kornel@geekhood.net> (https://kornel.ski/)"
+  "cacheKey" : "author|Kornel Lesiński <kornel@geekhood.net> (https://kornel.ski/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Kriasoft <hello@kriasoft.com> (https://www.kriasoft.com)",
-  "id" : "a02421b7-c136-409b-91ec-d3047c34aa97",
+  "id" : "2ee139c5-e2bd-477d-823e-9b986a572ef6",
   "pk" : "Kriasoft <hello@kriasoft.com> (https://www.kriasoft.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Kriasoft <hello@kriasoft.com> (https://www.kriasoft.com)"
+  "cacheKey" : "author|Kriasoft <hello@kriasoft.com> (https://www.kriasoft.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Kris Zyp",
-  "id" : "79ded4ca-d5f0-444f-abd5-7769d5f6b6db",
+  "id" : "fcfb0347-13d8-4eff-87da-ed71387f3652",
   "pk" : "Kris Zyp",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Kris Zyp"
+  "cacheKey" : "author|Kris Zyp",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Kristian Faeldt <faeldt_kristian@cyberagent.co.jp>",
-  "id" : "aa93db91-2ace-47e3-b500-861f122de1e6",
+  "id" : "1a8e2f40-4350-47c8-b462-eb94158807b3",
   "pk" : "Kristian Faeldt <faeldt_kristian@cyberagent.co.jp>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Kristian Faeldt <faeldt_kristian@cyberagent.co.jp>"
+  "cacheKey" : "author|Kristian Faeldt <faeldt_kristian@cyberagent.co.jp>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "LitoMore (litomore@gmail.com)",
-  "id" : "188e847c-119f-4a35-ab55-dfffbd717fac",
+  "id" : "593ed490-a3b6-42ff-b3d0-3ba5e1cd9c20",
   "pk" : "LitoMore (litomore@gmail.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|LitoMore (litomore@gmail.com)"
+  "cacheKey" : "author|LitoMore (litomore@gmail.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Lovell Fuller <npm@lovell.info>",
-  "id" : "a3a0e32a-8203-45fc-bff3-6690244d8cdf",
+  "id" : "3085d299-6e9c-4d65-bb1b-d568d824fbab",
   "pk" : "Lovell Fuller <npm@lovell.info>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Lovell Fuller <npm@lovell.info>"
+  "cacheKey" : "author|Lovell Fuller <npm@lovell.info>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Luke Childs <lukechilds123@gmail.com> (http://lukechilds.co.uk)",
-  "id" : "6ca11316-2ced-4336-9c82-3901712cb426",
+  "id" : "b306db5e-0dc0-4563-8970-07dc3c18f604",
   "pk" : "Luke Childs <lukechilds123@gmail.com> (http://lukechilds.co.uk)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Luke Childs <lukechilds123@gmail.com> (http://lukechilds.co.uk)"
+  "cacheKey" : "author|Luke Childs <lukechilds123@gmail.com> (http://lukechilds.co.uk)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Lupo Montero <lupomontero@gmail.com> (https://lupomontero.com/)",
-  "id" : "5be9d96a-01d6-42d2-9989-1e0770880857",
+  "id" : "31116c61-59fa-4e1d-85ff-5ca946a0ad93",
   "pk" : "Lupo Montero <lupomontero@gmail.com> (https://lupomontero.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Lupo Montero <lupomontero@gmail.com> (https://lupomontero.com/)"
+  "cacheKey" : "author|Lupo Montero <lupomontero@gmail.com> (https://lupomontero.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "MapBox (https://mapbox.com/)",
-  "id" : "f2155f4b-3c0d-4770-b769-e5ff3299990d",
+  "id" : "dd133c82-aa73-4433-88c3-b2876c83851f",
   "pk" : "MapBox (https://mapbox.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|MapBox (https://mapbox.com/)"
+  "cacheKey" : "author|MapBox (https://mapbox.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Marak Squires",
-  "id" : "d68a7a68-ef7c-4b91-9c43-a294403b148b",
+  "id" : "555b876d-6035-4ae5-9900-c47392fd38b9",
   "pk" : "Marak Squires",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Marak Squires"
+  "cacheKey" : "author|Marak Squires",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Marek Kubica <marek@xivilization.net> (https://xivilization.net)",
-  "id" : "d37b377e-ca56-46fc-af24-80df5127efcb",
+  "id" : "3b1d75e2-3371-4c85-883a-f04af207a94b",
   "pk" : "Marek Kubica <marek@xivilization.net> (https://xivilization.net)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Marek Kubica <marek@xivilization.net> (https://xivilization.net)"
+  "cacheKey" : "author|Marek Kubica <marek@xivilization.net> (https://xivilization.net)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
-  "id" : "94bd1963-7d8c-4055-9f3a-c12f6ff9a35b",
+  "id" : "e9869275-2de1-4bfe-8fc0-13874074f57c",
   "pk" : "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)"
+  "cacheKey" : "author|Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mariusz Nowak <medyk@medikoo.com> (https://www.medikoo.com/)",
-  "id" : "7419671b-fb9e-4efd-b3df-76aafcdc40ab",
+  "id" : "6bc46acf-9918-483c-a27d-77632ae8e151",
   "pk" : "Mariusz Nowak <medyk@medikoo.com> (https://www.medikoo.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mariusz Nowak <medyk@medikoo.com> (https://www.medikoo.com/)"
+  "cacheKey" : "author|Mariusz Nowak <medyk@medikoo.com> (https://www.medikoo.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mark Cavage <mcavage@gmail.com>",
-  "id" : "65571e13-9ecc-4c7c-8217-06f553d0a2f1",
+  "id" : "afe04bec-a820-4315-8f10-ec9a0f8205ac",
   "pk" : "Mark Cavage <mcavage@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mark Cavage <mcavage@gmail.com>"
+  "cacheKey" : "author|Mark Cavage <mcavage@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mark Lee",
-  "id" : "97e647eb-b1f4-47c2-bcee-d9049d8de406",
+  "id" : "9963702b-c53a-44c4-912d-fc0bccc1efe2",
   "pk" : "Mark Lee",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mark Lee"
+  "cacheKey" : "author|Mark Lee",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mark Wubben (https://novemberborn.net/)",
-  "id" : "3d370392-3d4d-48c9-b975-b7ed121a18bb",
+  "id" : "7234cb08-daa6-4281-9972-f98a1c169bb3",
   "pk" : "Mark Wubben (https://novemberborn.net/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mark Wubben (https://novemberborn.net/)"
+  "cacheKey" : "author|Mark Wubben (https://novemberborn.net/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mathias Buus",
-  "id" : "773841ae-3088-4776-946e-a226ad694c20",
+  "id" : "e1679374-8956-4d3a-9d0d-fd91e40d9a45",
   "pk" : "Mathias Buus",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mathias Buus"
+  "cacheKey" : "author|Mathias Buus",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mathias Buus <mathiasbuus@gmail.com>",
-  "id" : "2d5b2db5-a54a-4e02-9ef1-ce58be2f88ba",
+  "id" : "651a49b2-e24b-4513-8ae3-7191f991169f",
   "pk" : "Mathias Buus <mathiasbuus@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mathias Buus <mathiasbuus@gmail.com>"
+  "cacheKey" : "author|Mathias Buus <mathiasbuus@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mathias Buus Madsen <mathiasbuus@gmail.com>",
-  "id" : "ad0e1672-2cfd-4db1-9478-d9351ed4da71",
+  "id" : "5196c7d3-2149-424f-a184-407907973e7b",
   "pk" : "Mathias Buus Madsen <mathiasbuus@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mathias Buus Madsen <mathiasbuus@gmail.com>"
+  "cacheKey" : "author|Mathias Buus Madsen <mathiasbuus@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mathias Bynens (https://mathiasbynens.be/)",
-  "id" : "1468ed8e-50d3-41f8-abea-13ae25b0f493",
+  "id" : "0a13ba4b-cd58-4307-bf05-bbf47f1a07f6",
   "pk" : "Mathias Bynens (https://mathiasbynens.be/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mathias Bynens (https://mathiasbynens.be/)"
+  "cacheKey" : "author|Mathias Bynens (https://mathiasbynens.be/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Matt Ranney <mjr@ranney.com>",
-  "id" : "b07c12b8-e664-4892-8c6e-0f462f31f202",
+  "id" : "6a66f49c-155e-40c1-b4ad-f4674bafdd05",
   "pk" : "Matt Ranney <mjr@ranney.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Matt Ranney <mjr@ranney.com>"
+  "cacheKey" : "author|Matt Ranney <mjr@ranney.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Max Ogden <max@maxogden.com>",
-  "id" : "32cef4fe-5581-4a3d-abb9-2ce1805d56be",
+  "id" : "adbc9a0a-bd8c-4ca9-94b5-5a24681b664f",
   "pk" : "Max Ogden <max@maxogden.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Max Ogden <max@maxogden.com>"
+  "cacheKey" : "author|Max Ogden <max@maxogden.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Michael Hart <michael.hart.au@gmail.com> (http://github.com/mhart)",
-  "id" : "8b678415-56da-418a-8bd4-b3e4faa01c22",
+  "id" : "72a759f6-ac19-40d9-a31a-e5ddd5086482",
   "pk" : "Michael Hart <michael.hart.au@gmail.com> (http://github.com/mhart)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Michael Hart <michael.hart.au@gmail.com> (http://github.com/mhart)"
+  "cacheKey" : "author|Michael Hart <michael.hart.au@gmail.com> (http://github.com/mhart)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Michael Mclaughlin <M8ch88l@gmail.com>",
-  "id" : "f53c702d-e45c-4bf7-a19e-26e11b4da898",
+  "id" : "7558c8fc-30d9-4781-8be7-7f4b61f4b05f",
   "pk" : "Michael Mclaughlin <M8ch88l@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Michael Mclaughlin <M8ch88l@gmail.com>"
+  "cacheKey" : "author|Michael Mclaughlin <M8ch88l@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Michael de Wit",
-  "id" : "9ae252c5-f7ef-4449-8d53-2734d19d4051",
+  "id" : "8d590b37-c0d4-4015-b4dc-8ea0470d8505",
   "pk" : "Michael de Wit",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Michael de Wit"
+  "cacheKey" : "author|Michael de Wit",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Microsoft Corp.",
-  "id" : "d76bd45d-873d-415e-9e4d-156f9d25cba5",
+  "id" : "0f97828f-7156-4352-8f36-81d5df2962d7",
   "pk" : "Microsoft Corp.",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Microsoft Corp."
+  "cacheKey" : "author|Microsoft Corp.",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Microsoft Corporation",
-  "id" : "85a60103-9ea4-495c-b319-f6afccb756bf",
+  "id" : "76643012-a224-4878-bf21-66f0bea4dc1a",
   "pk" : "Microsoft Corporation",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Microsoft Corporation"
+  "cacheKey" : "author|Microsoft Corporation",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-azure-env)",
-  "id" : "3b2b9e4d-200b-4891-b2b3-33d557a187fe",
+  "id" : "1612d777-b522-449e-91dd-51b4c08c7983",
   "pk" : "Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-azure-env)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-azure-env)"
+  "cacheKey" : "author|Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-azure-env)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-js)",
-  "id" : "7e502c51-fce5-49b6-af13-b86bba6e4110",
+  "id" : "93e6f7fa-f3d6-4bd2-a9e2-3cfd346c0f23",
   "pk" : "Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-js)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-js)"
+  "cacheKey" : "author|Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-js)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-nodeauth)",
-  "id" : "7a4e06db-94d1-44ae-885c-6451038c9a32",
+  "id" : "f47370ac-96d6-4697-b524-670c6c27ca02",
   "pk" : "Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-nodeauth)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-nodeauth)"
+  "cacheKey" : "author|Microsoft Corporation <azsdkteam@microsoft.com> (https://github.com/Azure/ms-rest-nodeauth)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Microsoft Open Technologies Inc <msopentech@microsoft.com> (http://msopentech.com/)",
-  "id" : "26ece9c4-8453-44e7-8dfb-6b6bcd347dd2",
+  "id" : "948a952c-7eee-4f19-8101-e027e2bbf908",
   "pk" : "Microsoft Open Technologies Inc <msopentech@microsoft.com> (http://msopentech.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Microsoft Open Technologies Inc <msopentech@microsoft.com> (http://msopentech.com/)"
+  "cacheKey" : "author|Microsoft Open Technologies Inc <msopentech@microsoft.com> (http://msopentech.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mihai Bazon <mihai.bazon@gmail.com> (http://lisperator.net/)",
-  "id" : "dae48d46-34b9-47ff-9469-a160876d0433",
+  "id" : "5eafc7ba-da1b-4c60-94d0-d07ce672bd49",
   "pk" : "Mihai Bazon <mihai.bazon@gmail.com> (http://lisperator.net/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mihai Bazon <mihai.bazon@gmail.com> (http://lisperator.net/)"
+  "cacheKey" : "author|Mihai Bazon <mihai.bazon@gmail.com> (http://lisperator.net/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mike D Pilsbury <mike.pilsbury@gmail.com>",
-  "id" : "1e6ec484-e22f-46bd-be84-012ecfe9630b",
+  "id" : "36112db6-a0de-48eb-8e74-b4583cbe7703",
   "pk" : "Mike D Pilsbury <mike.pilsbury@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mike D Pilsbury <mike.pilsbury@gmail.com>"
+  "cacheKey" : "author|Mike D Pilsbury <mike.pilsbury@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mikeal Rogers <mikeal.rogers@gmail.com>",
-  "id" : "d77fd221-a907-45ae-8284-023fd71d1fee",
+  "id" : "ac0326c2-12f9-4f2e-ab17-fcfbbaffb896",
   "pk" : "Mikeal Rogers <mikeal.rogers@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mikeal Rogers <mikeal.rogers@gmail.com>"
+  "cacheKey" : "author|Mikeal Rogers <mikeal.rogers@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.futurealoof.com)",
-  "id" : "49e53584-93f0-4ec8-886e-ad7da64bf152",
+  "id" : "376f6f73-214c-4882-a863-4e6cbb2ffe8c",
   "pk" : "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.futurealoof.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.futurealoof.com)"
+  "cacheKey" : "author|Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.futurealoof.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Mikola Lysenko",
-  "id" : "0fae33c2-e15e-4f93-8d6c-b1452a1af3aa",
+  "id" : "5c838e35-142c-4d9e-8f6d-b3a30f71f063",
   "pk" : "Mikola Lysenko",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Mikola Lysenko"
+  "cacheKey" : "author|Mikola Lysenko",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
-  "id" : "b22c69a6-2369-43a7-92db-776888e0bf23",
+  "id" : "c3eb5282-1400-48ef-986e-04d918027f36",
   "pk" : "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)"
+  "cacheKey" : "author|Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Nick Fitzgerald <nfitzgerald@mozilla.com>",
-  "id" : "007e7559-f1eb-4af4-aaba-ea2406048ee6",
+  "id" : "1eb46f8f-daef-4571-8b0c-7c0e9d27473c",
   "pk" : "Nick Fitzgerald <nfitzgerald@mozilla.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Nick Fitzgerald <nfitzgerald@mozilla.com>"
+  "cacheKey" : "author|Nick Fitzgerald <nfitzgerald@mozilla.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Nikita Skovoroda <chalkerx@gmail.com> (https://github.com/ChALkeR)",
-  "id" : "deba42a3-676a-4761-8711-72a9c6453172",
+  "id" : "31832b5c-0181-419a-bd74-5dd339527129",
   "pk" : "Nikita Skovoroda <chalkerx@gmail.com> (https://github.com/ChALkeR)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Nikita Skovoroda <chalkerx@gmail.com> (https://github.com/ChALkeR)"
+  "cacheKey" : "author|Nikita Skovoroda <chalkerx@gmail.com> (https://github.com/ChALkeR)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Niklas von Hertzen <niklasvh@gmail.com> (https://hertzen.com)",
-  "id" : "05eff870-fcb5-4a5a-8dd3-1f0a4a720c5c",
+  "id" : "4841adf1-7e48-46ae-9c96-ae0fa51c7d28",
   "pk" : "Niklas von Hertzen <niklasvh@gmail.com> (https://hertzen.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Niklas von Hertzen <niklasvh@gmail.com> (https://hertzen.com)"
+  "cacheKey" : "author|Niklas von Hertzen <niklasvh@gmail.com> (https://hertzen.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Ozgur Ozcitak <oozcitak@gmail.com>",
-  "id" : "9817dc91-d3a3-4ac4-89bc-9b269aa6f118",
+  "id" : "eeea195d-bf90-433f-846d-1c122884a510",
   "pk" : "Ozgur Ozcitak <oozcitak@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Ozgur Ozcitak <oozcitak@gmail.com>"
+  "cacheKey" : "author|Ozgur Ozcitak <oozcitak@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Patrik Simek (https://patriksimek.cz)",
-  "id" : "b4a42ec6-ce03-401a-b363-713fd3c58f0c",
+  "id" : "2b95ad1b-b9c6-404b-bc07-00d073b7b445",
   "pk" : "Patrik Simek (https://patriksimek.cz)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Patrik Simek (https://patriksimek.cz)"
+  "cacheKey" : "author|Patrik Simek (https://patriksimek.cz)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Paul Miller (https://paulmillr.com)",
-  "id" : "e095dbfa-c974-46e7-93c5-873bb23525b4",
+  "id" : "6bc51b28-84dd-419e-a0a8-226b7f04a98f",
   "pk" : "Paul Miller (https://paulmillr.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Paul Miller (https://paulmillr.com)"
+  "cacheKey" : "author|Paul Miller (https://paulmillr.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Paul Vorbach <paul@vorba.ch> (http://paul.vorba.ch/)",
-  "id" : "ac2d4d51-9404-4ab9-a322-78e4c4cd7729",
+  "id" : "03e4289a-e423-4672-843c-59eaa48f7180",
   "pk" : "Paul Vorbach <paul@vorba.ch> (http://paul.vorba.ch/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Paul Vorbach <paul@vorba.ch> (http://paul.vorba.ch/)"
+  "cacheKey" : "author|Paul Vorbach <paul@vorba.ch> (http://paul.vorba.ch/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Petka Antonov <petka_antonov@hotmail.com> (http://github.com/petkaantonov/)",
-  "id" : "20e08e64-5066-42b7-a382-f7a23b88f939",
+  "id" : "b7896584-7eda-4f2f-905e-465b60c700e4",
   "pk" : "Petka Antonov <petka_antonov@hotmail.com> (http://github.com/petkaantonov/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Petka Antonov <petka_antonov@hotmail.com> (http://github.com/petkaantonov/)"
+  "cacheKey" : "author|Petka Antonov <petka_antonov@hotmail.com> (http://github.com/petkaantonov/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Ramesh Nair <ram@hiddentao.com> (http://www.hiddentao.com/)",
-  "id" : "efbcaa6e-c9a2-4019-af14-404133e6ac11",
+  "id" : "b0c2d374-0c97-45aa-9fb1-ea36d02ae066",
   "pk" : "Ramesh Nair <ram@hiddentao.com> (http://www.hiddentao.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Ramesh Nair <ram@hiddentao.com> (http://www.hiddentao.com/)"
+  "cacheKey" : "author|Ramesh Nair <ram@hiddentao.com> (http://www.hiddentao.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Raynos <raynos2@gmail.com>",
-  "id" : "6678ad4f-8e2d-4e0d-9a29-7e30d7c1c248",
+  "id" : "8f1b1288-6f05-4456-b503-b8fd55d737c7",
   "pk" : "Raynos <raynos2@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Raynos <raynos2@gmail.com>"
+  "cacheKey" : "author|Raynos <raynos2@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Rebecca Turner (http://re-becca.org)",
-  "id" : "aa2f939f-8bb8-4359-89b9-17959e842687",
+  "id" : "ab963edc-d19e-44f1-9563-d4d4033f96da",
   "pk" : "Rebecca Turner (http://re-becca.org)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Rebecca Turner (http://re-becca.org)"
+  "cacheKey" : "author|Rebecca Turner (http://re-becca.org)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Rebecca Turner <me@re-becca.org>",
-  "id" : "5356c381-1157-4482-a2e2-845dc44add5c",
+  "id" : "1445b3fa-b925-4ab3-805c-7f39c15f3fc7",
   "pk" : "Rebecca Turner <me@re-becca.org>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Rebecca Turner <me@re-becca.org>"
+  "cacheKey" : "author|Rebecca Turner <me@re-becca.org>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Rebecca Turner <me@re-becca.org> (http://re-becca.org)",
-  "id" : "136fff6f-bb13-4b14-bb71-7c899df0d280",
+  "id" : "8b589f5b-f519-417e-9e74-b3ac3e388142",
   "pk" : "Rebecca Turner <me@re-becca.org> (http://re-becca.org)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Rebecca Turner <me@re-becca.org> (http://re-becca.org)"
+  "cacheKey" : "author|Rebecca Turner <me@re-becca.org> (http://re-becca.org)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
-  "id" : "2c1a4ab9-21aa-4e35-86a3-2ab406391427",
+  "id" : "43a3f530-29e4-47d7-9716-a3b03e8afc0e",
   "pk" : "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Rebecca Turner <me@re-becca.org> (http://re-becca.org/)"
+  "cacheKey" : "author|Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Remy Sharp",
-  "id" : "e5e34f67-8854-46a8-8a02-4b132f0e5d34",
+  "id" : "a3599ea5-e723-4977-b640-d1a478c16d0c",
   "pk" : "Remy Sharp",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Remy Sharp"
+  "cacheKey" : "author|Remy Sharp",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Remy Sharp (http://github.com/remy)",
-  "id" : "e64c2094-4c3f-45cd-b80f-e7380cb1ad1c",
+  "id" : "a247673b-4a15-4daf-a637-d5d6123332b6",
   "pk" : "Remy Sharp (http://github.com/remy)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Remy Sharp (http://github.com/remy)"
+  "cacheKey" : "author|Remy Sharp (http://github.com/remy)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Renée Kooi <renee@kooi.me>",
-  "id" : "f77eb906-3756-4f76-8644-3843f90cc4f8",
+  "id" : "8d9b11f3-8e72-4637-ae0a-1464c5d547b4",
   "pk" : "Renée Kooi <renee@kooi.me>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Renée Kooi <renee@kooi.me>"
+  "cacheKey" : "author|Renée Kooi <renee@kooi.me>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Rich Harris",
-  "id" : "23507ef2-3e8a-428f-ab6e-5e37c2c440f4",
+  "id" : "f0a10e83-6bde-44f3-b2f8-a74e2a141e3a",
   "pk" : "Rich Harris",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Rich Harris"
+  "cacheKey" : "author|Rich Harris",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
-  "id" : "faa3d1a6-f88c-49ac-a21d-92fbd84c9c5f",
+  "id" : "0910e124-3cfd-4c83-afb2-ac2dee1b6c7d",
   "pk" : "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Robert Eisele <robert@xarg.org> (http://www.xarg.org/)"
+  "cacheKey" : "author|Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Robert Kieffer <robert@broofa.com> (http://github.com/broofa)",
-  "id" : "c01ae6d9-e523-463c-b863-aac0ace6a931",
+  "id" : "af4cbec3-a2b6-4c37-8898-1f3731614175",
   "pk" : "Robert Kieffer <robert@broofa.com> (http://github.com/broofa)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Robert Kieffer <robert@broofa.com> (http://github.com/broofa)"
+  "cacheKey" : "author|Robert Kieffer <robert@broofa.com> (http://github.com/broofa)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
-  "id" : "2cb22bb2-7c1e-48b9-9cbf-4f82ce10e00b",
+  "id" : "eb9486eb-fbbb-47df-830e-2adb0b5b0e1c",
   "pk" : "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Rod Vagg <r@va.gg> (https://github.com/rvagg)"
+  "cacheKey" : "author|Rod Vagg <r@va.gg> (https://github.com/rvagg)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Rod Vagg <rod@vagg.org>",
-  "id" : "b6967a41-2cae-47c7-b0d4-0c11b682ee56",
+  "id" : "a5d614ce-9dab-4d90-a0ae-d6380214bed6",
   "pk" : "Rod Vagg <rod@vagg.org>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Rod Vagg <rod@vagg.org>"
+  "cacheKey" : "author|Rod Vagg <rod@vagg.org>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Rogier Schouten <github@workingcode.ninja> (https://github.com/rogierschouten/)",
-  "id" : "051ea35c-4ef5-4673-be30-72dbaf94e4b3",
+  "id" : "645abf6d-7032-4b04-ad60-1ddd7985551d",
   "pk" : "Rogier Schouten <github@workingcode.ninja> (https://github.com/rogierschouten/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Rogier Schouten <github@workingcode.ninja> (https://github.com/rogierschouten/)"
+  "cacheKey" : "author|Rogier Schouten <github@workingcode.ninja> (https://github.com/rogierschouten/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Roman Shtylman <shtylman@gmail.com>",
-  "id" : "94272f81-60bf-4459-8968-7647d64aa837",
+  "id" : "d3892865-29ce-4c72-af22-203e746defae",
   "pk" : "Roman Shtylman <shtylman@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Roman Shtylman <shtylman@gmail.com>"
+  "cacheKey" : "author|Roman Shtylman <shtylman@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Ruben Bridgewater",
-  "id" : "126d09e8-c76c-474b-b8f5-50d14af64d4d",
+  "id" : "fe7e08a0-1262-4b73-bbba-5250bd58e0b4",
   "pk" : "Ruben Bridgewater",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Ruben Bridgewater"
+  "cacheKey" : "author|Ruben Bridgewater",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Ryan Zimmerman <opensrc@ryanzim.com>",
-  "id" : "6393e008-bf05-4f20-920c-4c30b276641b",
+  "id" : "76d326e9-9a8b-4906-bbbf-804dace24678",
   "pk" : "Ryan Zimmerman <opensrc@ryanzim.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Ryan Zimmerman <opensrc@ryanzim.com>"
+  "cacheKey" : "author|Ryan Zimmerman <opensrc@ryanzim.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Samuel Reed",
-  "id" : "853a1180-9d2c-4ec9-bce7-07029ab5d31f",
+  "id" : "393cf2eb-e4ca-43ed-bba7-7bebf1b525eb",
   "pk" : "Samuel Reed",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Samuel Reed"
+  "cacheKey" : "author|Samuel Reed",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Scott Corgan",
-  "id" : "05898918-4b95-4c6d-baab-6725e8190519",
+  "id" : "5d58188f-8975-4f69-8f56-91a76f5331e7",
   "pk" : "Scott Corgan",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Scott Corgan"
+  "cacheKey" : "author|Scott Corgan",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Sebastian McKenzie <sebmck@gmail.com>",
-  "id" : "973a6915-f600-4043-8f1a-b803051f31af",
+  "id" : "412745bf-9fb0-4786-bf3f-7205866bb4e1",
   "pk" : "Sebastian McKenzie <sebmck@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Sebastian McKenzie <sebmck@gmail.com>"
+  "cacheKey" : "author|Sebastian McKenzie <sebmck@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Simon Lydell",
-  "id" : "bc8f2ce0-c25d-44f2-a179-c17c319120e4",
+  "id" : "e73e85ec-cf25-431d-a409-626cc0feddc3",
   "pk" : "Simon Lydell",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Simon Lydell"
+  "cacheKey" : "author|Simon Lydell",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
-  "id" : "d12956ca-b924-47c6-9e24-e1bea82974ba",
+  "id" : "dc15e4fa-821e-4ec6-8b1b-d54fd2e068b4",
   "pk" : "Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)"
+  "cacheKey" : "author|Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
-  "id" : "e47b1267-f130-48a6-ab28-eda866a6957b",
+  "id" : "aac3f826-22bc-4064-8a0f-509bd4f7552f",
   "pk" : "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)"
+  "cacheKey" : "author|Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Stefan Penner",
-  "id" : "f6e8c5b7-b50a-4905-9e45-58316b774055",
+  "id" : "99900e58-4334-498a-9dfa-1ba8d0d293d4",
   "pk" : "Stefan Penner",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Stefan Penner"
+  "cacheKey" : "author|Stefan Penner",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Stefan Thomas <justmoon@members.fsf.org> (http://www.justmoon.net)",
-  "id" : "7015fec8-c62b-431c-b45c-123a56d4e5b6",
+  "id" : "69171c35-6617-4a12-b918-8ae4638da8c6",
   "pk" : "Stefan Thomas <justmoon@members.fsf.org> (http://www.justmoon.net)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Stefan Thomas <justmoon@members.fsf.org> (http://www.justmoon.net)"
+  "cacheKey" : "author|Stefan Thomas <justmoon@members.fsf.org> (http://www.justmoon.net)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Stephen Sugden <me@stephensugden.com>",
-  "id" : "3122b417-740f-47af-aea7-a7cfff76baa0",
+  "id" : "23b4f8f0-e896-49d7-bb47-2fc1b5546199",
   "pk" : "Stephen Sugden <me@stephensugden.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Stephen Sugden <me@stephensugden.com>"
+  "cacheKey" : "author|Stephen Sugden <me@stephensugden.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Steve Faulkner <southpolesteve@gmail.com>",
-  "id" : "2e956239-8527-4014-8d28-68abbd5fb30b",
+  "id" : "969699eb-ccb4-47bd-944a-6b3d9fad13e1",
   "pk" : "Steve Faulkner <southpolesteve@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Steve Faulkner <southpolesteve@gmail.com>"
+  "cacheKey" : "author|Steve Faulkner <southpolesteve@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Steven Levithan",
-  "id" : "1a88f31e-1a06-4974-a8d9-d3b6bab3838b",
+  "id" : "c66830f1-930f-493c-8e63-21cc8d98cf65",
   "pk" : "Steven Levithan",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Steven Levithan"
+  "cacheKey" : "author|Steven Levithan",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Steven Levithan <steves_list@hotmail.com>",
-  "id" : "09e5e274-ebf5-4c35-af18-c243227af083",
+  "id" : "30270e7d-d1ed-4500-9eca-b6c36daeefed",
   "pk" : "Steven Levithan <steves_list@hotmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Steven Levithan <steves_list@hotmail.com>"
+  "cacheKey" : "author|Steven Levithan <steves_list@hotmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Szymon Marczak",
-  "id" : "2425bf1b-0dff-48c6-931b-799688623be7",
+  "id" : "392f3c8f-f81c-479e-9f4b-623a0248b8a8",
   "pk" : "Szymon Marczak",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Szymon Marczak"
+  "cacheKey" : "author|Szymon Marczak",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "T. Jameson Little <t.jameson.little@gmail.com>",
-  "id" : "05f2b6a0-1f1b-4d3c-9a25-5de4b7485db4",
+  "id" : "538117c0-b813-4ffd-9ec3-66553100a8aa",
   "pk" : "T. Jameson Little <t.jameson.little@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|T. Jameson Little <t.jameson.little@gmail.com>"
+  "cacheKey" : "author|T. Jameson Little <t.jameson.little@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "TJ Holowaychuk <tj@learnboost.com>",
-  "id" : "5287aafe-9ea4-4221-b313-4471caf7a406",
+  "id" : "11fb274d-8c07-4482-a966-3af45e4df380",
   "pk" : "TJ Holowaychuk <tj@learnboost.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|TJ Holowaychuk <tj@learnboost.com>"
+  "cacheKey" : "author|TJ Holowaychuk <tj@learnboost.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "TJ Holowaychuk <tj@vision-media.ca>",
-  "id" : "54dff427-35de-4a13-bcad-b3e4124b303a",
+  "id" : "71d9c24a-42a9-4239-9fef-9405567058b8",
   "pk" : "TJ Holowaychuk <tj@vision-media.ca>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|TJ Holowaychuk <tj@vision-media.ca>"
+  "cacheKey" : "author|TJ Holowaychuk <tj@vision-media.ca>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
-  "id" : "5f9d4e63-4388-454c-b6ae-476357a680da",
+  "id" : "17c147a5-24d6-492c-b2c1-d9814d5a69de",
   "pk" : "TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)"
+  "cacheKey" : "author|TJ Holowaychuk <tj@vision-media.ca> (http://tjholowaychuk.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Thiago de Arruda <tpadilha84@gmail.com>",
-  "id" : "9bab4fb9-4e99-4204-92de-335c8a1b7bad",
+  "id" : "e61ed2e2-d29e-420a-8e40-c782f36cfeae",
   "pk" : "Thiago de Arruda <tpadilha84@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Thiago de Arruda <tpadilha84@gmail.com>"
+  "cacheKey" : "author|Thiago de Arruda <tpadilha84@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
-  "id" : "71e006e9-1865-4c7a-813b-37225843283e",
+  "id" : "313a3b8b-9aa3-4982-b729-97a7982b5c0d",
   "pk" : "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)"
+  "cacheKey" : "author|Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Thorsten Lorenz <thlorenz@gmx.de> (http://thlorenz.com)",
-  "id" : "aef0ab94-8f90-438b-b164-162b31988a85",
+  "id" : "f7ce0250-b1a1-4112-9a0d-7f6190c2cb95",
   "pk" : "Thorsten Lorenz <thlorenz@gmx.de> (http://thlorenz.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Thorsten Lorenz <thlorenz@gmx.de> (http://thlorenz.com)"
+  "cacheKey" : "author|Thorsten Lorenz <thlorenz@gmx.de> (http://thlorenz.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
-  "id" : "85261e7b-b49d-4db4-b3f2-7da82e94213e",
+  "id" : "0ab9645d-8e74-4902-b776-aabe0625e157",
   "pk" : "Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)"
+  "cacheKey" : "author|Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Tim Wood <washwithcare@gmail.com> (http://timwoodcreates.com/)",
-  "id" : "a879aefe-a73b-4fa2-b909-252afa52db5c",
+  "id" : "acb37e97-faca-492e-b73c-d5cc989be607",
   "pk" : "Tim Wood <washwithcare@gmail.com> (http://timwoodcreates.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Tim Wood <washwithcare@gmail.com> (http://timwoodcreates.com/)"
+  "cacheKey" : "author|Tim Wood <washwithcare@gmail.com> (http://timwoodcreates.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Timothy Gu <timothygu99@gmail.com>",
-  "id" : "bd617ad5-9d81-4a42-8b13-1f6126453588",
+  "id" : "f6d93556-7a03-42f1-993a-a7eba45ee1cd",
   "pk" : "Timothy Gu <timothygu99@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Timothy Gu <timothygu99@gmail.com>"
+  "cacheKey" : "author|Timothy Gu <timothygu99@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Tobias Baunbæk <freeall@gmail.com>",
-  "id" : "42cdc463-1b42-4fbc-8177-1de3ee7c23ba",
+  "id" : "039632c1-954b-43c0-9009-ce5f2f3ada3a",
   "pk" : "Tobias Baunbæk <freeall@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Tobias Baunbæk <freeall@gmail.com>"
+  "cacheKey" : "author|Tobias Baunbæk <freeall@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Tom Wu",
-  "id" : "07571a08-cc88-4a6a-9a03-27e92b27bf46",
+  "id" : "0db7dac0-5745-482b-b285-56b92b119096",
   "pk" : "Tom Wu",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Tom Wu"
+  "cacheKey" : "author|Tom Wu",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Tomasz Janczuk <tomasz@janczuk.org> (http://tomasz.janczuk.org)",
-  "id" : "72648cea-13cd-4b61-a79f-0292026ad390",
+  "id" : "cfc4f293-2e86-45c6-a6d1-d66d7c845cf5",
   "pk" : "Tomasz Janczuk <tomasz@janczuk.org> (http://tomasz.janczuk.org)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Tomasz Janczuk <tomasz@janczuk.org> (http://tomasz.janczuk.org)"
+  "cacheKey" : "author|Tomasz Janczuk <tomasz@janczuk.org> (http://tomasz.janczuk.org)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Tomás Pollak <tomas@forkhq.com>",
-  "id" : "5a7c05a5-b3d1-4dce-883f-3cfa12e84f9b",
+  "id" : "df256a29-1aae-472f-a29c-ac38447e8140",
   "pk" : "Tomás Pollak <tomas@forkhq.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Tomás Pollak <tomas@forkhq.com>"
+  "cacheKey" : "author|Tomás Pollak <tomas@forkhq.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Toru Nagashima",
-  "id" : "fb9726aa-daaf-46f7-9568-9a3fbbfad80c",
+  "id" : "c8266a2b-555d-4a0a-9e25-a012a23ed562",
   "pk" : "Toru Nagashima",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Toru Nagashima"
+  "cacheKey" : "author|Toru Nagashima",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Toru Nagashima (https://github.com/mysticatea)",
-  "id" : "18745dc3-5d0f-4192-b61d-1930a7758d8f",
+  "id" : "59b3b96c-fa8e-426a-b27d-5b1745d0b5c0",
   "pk" : "Toru Nagashima (https://github.com/mysticatea)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Toru Nagashima (https://github.com/mysticatea)"
+  "cacheKey" : "author|Toru Nagashima (https://github.com/mysticatea)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Trent Mick <trentm@gmail.com> (http://trentm.com)",
-  "id" : "7c7af0eb-8a19-4e9e-b6be-6b16196b3b21",
+  "id" : "b963507b-322e-413f-85c8-f59044213140",
   "pk" : "Trent Mick <trentm@gmail.com> (http://trentm.com)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Trent Mick <trentm@gmail.com> (http://trentm.com)"
+  "cacheKey" : "author|Trent Mick <trentm@gmail.com> (http://trentm.com)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Troy Goode <troygoode@gmail.com> (http://github.com/troygoode/)",
-  "id" : "1ec5855d-d324-482f-bd57-c33ab0f48d83",
+  "id" : "a051b697-d571-4e0a-978d-428bbf9e7fab",
   "pk" : "Troy Goode <troygoode@gmail.com> (http://github.com/troygoode/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Troy Goode <troygoode@gmail.com> (http://github.com/troygoode/)"
+  "cacheKey" : "author|Troy Goode <troygoode@gmail.com> (http://github.com/troygoode/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "TweetNaCl-js contributors",
-  "id" : "3ba7dbaa-4ce0-4c02-aa35-d373dd34b80d",
+  "id" : "d3d2cd30-c362-4089-8b27-2fdf4ec77884",
   "pk" : "TweetNaCl-js contributors",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|TweetNaCl-js contributors"
+  "cacheKey" : "author|TweetNaCl-js contributors",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Tyler Kellen (http://goingslowly.com/)",
-  "id" : "b9bbbc54-c45f-4bab-99be-8760b3f912e8",
+  "id" : "430d16df-a91f-4c3a-a2c4-a55c0067f288",
   "pk" : "Tyler Kellen (http://goingslowly.com/)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Tyler Kellen (http://goingslowly.com/)"
+  "cacheKey" : "author|Tyler Kellen (http://goingslowly.com/)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Viacheslav Lotsmanov <lotsmanov89@gmail.com>",
-  "id" : "5911a124-b84c-4f01-aebd-0262a2e80ac3",
+  "id" : "52e86ea3-c6a8-4441-9a64-7156b2117673",
   "pk" : "Viacheslav Lotsmanov <lotsmanov89@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Viacheslav Lotsmanov <lotsmanov89@gmail.com>"
+  "cacheKey" : "author|Viacheslav Lotsmanov <lotsmanov89@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Vladimir Zapparov <dervus.grim@gmail.com>",
-  "id" : "89e0e1db-a8d5-477a-9d65-86ae9eb6c157",
+  "id" : "9295f9f4-1bdf-4a15-81c3-4439007fa9f8",
   "pk" : "Vladimir Zapparov <dervus.grim@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Vladimir Zapparov <dervus.grim@gmail.com>"
+  "cacheKey" : "author|Vladimir Zapparov <dervus.grim@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "Wes Todd",
-  "id" : "7c9e02e6-ad17-4750-b9c6-f7bead38f13b",
+  "id" : "de614811-26cb-4536-9e18-f297b383b459",
   "pk" : "Wes Todd",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|Wes Todd"
+  "cacheKey" : "author|Wes Todd",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "changchang <changchang005@gmail.com>",
-  "id" : "e485edb5-fd61-45d6-a837-f3fb4c9e74f9",
+  "id" : "5b97bf97-0fd5-47fe-b49c-3926a1f9dd94",
   "pk" : "changchang <changchang005@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|changchang <changchang005@gmail.com>"
+  "cacheKey" : "author|changchang <changchang005@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "freeall <freeall@gmail.com>",
-  "id" : "583c4662-a746-4b84-82c6-9f468a89a748",
+  "id" : "0c476bb0-f5b2-4a9e-b133-766a63094c41",
   "pk" : "freeall <freeall@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|freeall <freeall@gmail.com>"
+  "cacheKey" : "author|freeall <freeall@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "hemanth.hm",
-  "id" : "4a7d40dc-dcc0-414f-8a83-a47153c76b7f",
+  "id" : "f0646217-74ea-4ae7-8ee0-11e1eab6762f",
   "pk" : "hemanth.hm",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|hemanth.hm"
+  "cacheKey" : "author|hemanth.hm",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "hij1nx <paolo@async.ly>",
-  "id" : "ec0eeb08-fa06-41c2-ab37-d6e64a72012e",
+  "id" : "3eecd426-d276-4b30-bf64-6b3ff9e3c277",
   "pk" : "hij1nx <paolo@async.ly>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|hij1nx <paolo@async.ly>"
+  "cacheKey" : "author|hij1nx <paolo@async.ly>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "jindw <jindw@xidea.org> (http://www.xidea.org)",
-  "id" : "b3c3ddfb-8216-4a3e-8837-ed5d1b6040ed",
+  "id" : "2c357a0e-60e0-4718-8f23-722da1866946",
   "pk" : "jindw <jindw@xidea.org> (http://www.xidea.org)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|jindw <jindw@xidea.org> (http://www.xidea.org)"
+  "cacheKey" : "author|jindw <jindw@xidea.org> (http://www.xidea.org)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "keik <k4t0.kei@gmail.com>",
-  "id" : "79eb6679-12cc-452a-a03f-7b7149554e98",
+  "id" : "70331b09-925d-44f7-8de3-244dfef71f1c",
   "pk" : "keik <k4t0.kei@gmail.com>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|keik <k4t0.kei@gmail.com>"
+  "cacheKey" : "author|keik <k4t0.kei@gmail.com>",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "kumavis",
-  "id" : "d0d20599-fe78-4efb-9d68-3b1a7fb09a23",
+  "id" : "763a33f4-b3e9-4deb-91ef-c8dd59d7ba24",
   "pk" : "kumavis",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|kumavis"
+  "cacheKey" : "author|kumavis",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "lsong",
-  "id" : "ec98fde9-3dc2-4cb5-90b4-7a06ba735394",
+  "id" : "24cbee6c-ef78-4304-9a23-e76c66a4eeed",
   "pk" : "lsong",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|lsong"
+  "cacheKey" : "author|lsong",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "luin <i@zihua.li> (http://zihua.li)",
-  "id" : "b5489f70-8dc5-4f92-bf7a-7255f84ac2bf",
+  "id" : "38952b6c-8e08-45da-90ee-ac37f1d588ab",
   "pk" : "luin <i@zihua.li> (http://zihua.li)",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|luin <i@zihua.li> (http://zihua.li)"
+  "cacheKey" : "author|luin <i@zihua.li> (http://zihua.li)",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "lukechilds",
-  "id" : "bf61fe5a-bade-44fa-9639-0945d748e5d9",
+  "id" : "d7f73100-bd2d-408d-b294-855d181eb0cd",
   "pk" : "lukechilds",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|lukechilds"
+  "cacheKey" : "author|lukechilds",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "max ogden",
-  "id" : "77225d8d-9d2b-4e22-95f7-c821774eeb64",
+  "id" : "12e65bcc-313c-4b07-b482-ebe28b4b2609",
   "pk" : "max ogden",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|max ogden"
+  "cacheKey" : "author|max ogden",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "nexdrew",
-  "id" : "8a6ab84a-f909-4eee-8fe2-28fb74a26d90",
+  "id" : "50c545cf-e94a-4de8-aa38-c91e2e12746e",
   "pk" : "nexdrew",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|nexdrew"
+  "cacheKey" : "author|nexdrew",
+  "graphKey" : null,
+  "authorName" : null
 }, {
   "doctype" : "author",
   "label" : "whitequark <whitequark@whitequark.org>",
-  "id" : "7d33b73d-f1ec-459f-b0b6-41d229bd45dc",
+  "id" : "de150266-05a5-4a16-9371-26fe0201fab3",
   "pk" : "whitequark <whitequark@whitequark.org>",
+  "_etag" : null,
   "tenant" : "123",
   "lob" : "npm",
-  "cacheKey" : "author|whitequark <whitequark@whitequark.org>"
+  "cacheKey" : "author|whitequark <whitequark@whitequark.org>",
+  "graphKey" : null,
+  "authorName" : null
 } ]

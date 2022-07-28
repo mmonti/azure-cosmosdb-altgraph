@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.cjoakim.cosmos.altgraph.data.graph.Graph;
 import org.cjoakim.cosmos.altgraph.data.graph.TripleQueryStruct;
+import org.cjoakim.cosmos.altgraph.data.model.Author;
 import org.cjoakim.cosmos.altgraph.data.model.Library;
 
 import java.io.BufferedReader;
@@ -79,6 +80,12 @@ public class FileUtil {
 
         ObjectMapper mapper = new ObjectMapper();
         return mapper.readValue(Paths.get(infile).toFile(), Library.class);
+    }
+
+    public Author readAuthor(String infile) throws Exception {
+
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.readValue(Paths.get(infile).toFile(), Author.class);
     }
 
     public Graph readGraph(String infile) throws Exception {

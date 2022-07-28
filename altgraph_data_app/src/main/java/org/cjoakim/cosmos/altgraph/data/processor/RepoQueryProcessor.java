@@ -68,14 +68,18 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
         libsOfInterest.add("express");
         libsOfInterest.add("m26-js");
 
+        FileUtil fu = new FileUtil();
+
         // Find the Libraries
-        if (false) {
+        if (true) {
             for (int i = 0; i < libsOfInterest.size(); i++) {
                 String libName = libsOfInterest.get(i);
                 Iterable<Library> iterable = libraryRepository.findByPkAndTenant(libName, tenant);
                 iterable.forEach(doc -> {
                     try {
-                        //System.out.println("doc: " + doc.asJson(true));
+                        String name = doc.getName();
+                        String outfile = "data/refined/" + name + ".json";
+                        fu.writeJson(doc, outfile, true, true);
                     }
                     catch (Exception e) {
                         throw new RuntimeException(e);
@@ -84,7 +88,6 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             }
         }
 
-
         // Find the corresponding Triples
         if (false) {
             for (int i = 0; i < libsOfInterest.size(); i++) {
@@ -92,7 +95,7 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
                 Iterable<Triple> iterable = tripleRepository.findByTenantAndSubjectLabel(tenant, libName);
                 iterable.forEach(doc -> {
                     try {
-                        //System.out.println("doc: " + doc.asJson(true));
+                        System.out.println("doc: " + doc.asJson(true));
                     }
                     catch (Exception e) {
                         throw new RuntimeException(e);
@@ -127,7 +130,7 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             log.warn("count of getNumberOfDocsWithSubjectLabel: " + count);
         }
 
-        if (true) {
+        if (false) {
             String subject = "library";
             TripleQueryStruct struct = new TripleQueryStruct();
             struct.setSql("dynamic");
@@ -140,13 +143,10 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             while (it.hasNext()) {
                 Triple t = it.next();
                 struct.addDocument(t);
-                //System.out.println(t.asJson(true));
                 docCount++;
             }
             struct.stop();
             log.warn("getByTenantLobAndSubjects count: " + docCount);
-
-            FileUtil fu = new FileUtil();
             fu.writeJson(struct, TRIPLE_QUERY_STRUCT_FILE, true, true);
 
             TripleQueryStruct struct2 = fu.readTripleQueryStruct(TRIPLE_QUERY_STRUCT_FILE);
@@ -155,6 +155,33 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
         }
 
         if (true) {
+            TripleQueryStruct struct = new TripleQueryStruct();
+            struct.setSql("dynamic");
+            struct.start();
+
+            ArrayList<String> subjectTypes = new ArrayList<String>();
+            subjectTypes.add("author");
+            subjectTypes.add("library");
+
+            String pk = "triple|" + tenant; // "pk": "triple|123"'
+            Iterable<Triple> iterable = tripleRepository.getByPkTenantAndSubjectTypes(pk, tenant, subjectTypes);
+            Iterator<Triple> it = iterable.iterator();
+            long docCount = 0;
+            while (it.hasNext()) {
+                Triple t = it.next();
+                struct.addDocument(t);
+                docCount++;
+            }
+            struct.stop();
+            log.warn("getByTenantAndSubjectTypes count: " + docCount);
+            fu.writeJson(struct, TRIPLE_QUERY_STRUCT_FILE, true, true);
+
+            TripleQueryStruct struct2 = fu.readTripleQueryStruct(TRIPLE_QUERY_STRUCT_FILE);
+            log.warn("struct type:    " + struct2.getStructType());
+            log.warn("documents size: " + struct2.getDocuments().size());
+        }
+
+        if (false) {
             Iterable<Library> iterable = libraryRepository.findByPkAndTenantAndDoctype(
                     "tedious", tenant, "library");
             Iterator<Library> it = iterable.iterator();
@@ -169,6 +196,7 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
 
         if (true) {
             // Test the extension method in TripleRepositoryExtensions
+            TripleQueryStruct struct = new TripleQueryStruct();
             ArrayList<String> subjectLabels = new ArrayList<String>();
             subjectLabels.add("m26-js");
             subjectLabels.add("tcx-js");

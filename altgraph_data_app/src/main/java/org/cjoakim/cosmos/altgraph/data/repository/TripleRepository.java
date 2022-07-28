@@ -51,8 +51,15 @@ public interface TripleRepository extends CosmosRepository<Triple, String>, Trip
     //     }
     // ]
 
+
     @Query("select * from c where c.tenant = @tenant and ARRAY_CONTAINS(@subjects, c.subjectLabel)")
     List<Triple> getByTenantAndSubjectLabels(
             @Param("tenant") String tenant,
             @Param("subjects") List<String> subjectLabels);
+
+    @Query("select * from c where c.pk = @pk and c.doctype = 'triple' and c.tenant = @tenant and ARRAY_CONTAINS(@subjectTypes, c.subjectType)")
+    List<Triple> getByPkTenantAndSubjectTypes(
+            @Param("pk") String pk,
+            @Param("tenant") String tenant,
+            @Param("subjectTypes") List<String> subjectTypes);
 }
