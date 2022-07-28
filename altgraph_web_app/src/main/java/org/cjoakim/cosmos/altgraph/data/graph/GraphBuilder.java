@@ -36,21 +36,21 @@ public class GraphBuilder {
         this.graph = new Graph();
     }
 
-    public Graph build(int maxIterations) {
+    public Graph buildLibraryGraph(int maxIterations) {
 
         String rootKey = rootEntity.getGraphKey();
-        log.warn("build_rootKey: " + rootKey);
+        log.warn("buildLibraryGraph, rootKey: " + rootKey);
         graph.setRootNode(rootKey);
 
-        collect(maxIterations);  // iterate the triples and build the graph from them
+        collectLibraryGraph(maxIterations);  // iterate the triples and build the graph from them
 
         graph.finish();
         return graph;
     }
 
-    private void collect(int maxIterations) {
+    private void collectLibraryGraph(int maxIterations) {
 
-        log.warn("collect, maxIterations: " + maxIterations);
+        log.warn("collectLibraryGraph, maxIterations: " + maxIterations);
         boolean continueToCollect = true;
         int iterations = 0;
         int newNodesThisIteration = 0;

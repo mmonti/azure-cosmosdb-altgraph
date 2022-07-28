@@ -84,7 +84,7 @@ public class GraphController implements DataAppConstants {
                 formObject.getSessionId());
 
         GraphBuilder graphBuilder = new GraphBuilder(library, struct);
-        Graph graph = graphBuilder.build(formObject.getDepthAsInt());
+        Graph graph = graphBuilder.buildLibraryGraph(formObject.getDepthAsInt());
 
         D3CsvBuilder d3CsvBuilder = new D3CsvBuilder(graph);
         d3CsvBuilder.buildBillOfMaterialCsv(session.getId(), formObject.getDepthAsInt());
@@ -111,7 +111,7 @@ public class GraphController implements DataAppConstants {
                 formObject.getSessionId());
 
         GraphBuilder graphBuilder = new GraphBuilder(library, struct);
-        Graph graph = graphBuilder.build(formObject.getDepthAsInt());
+        Graph graph = graphBuilder.buildLibraryGraph(formObject.getDepthAsInt());
 
         D3CsvBuilder d3CsvBuilder = new D3CsvBuilder(graph);
         d3CsvBuilder.buildBillOfMaterialCsv(session.getId(), formObject.getDepthAsInt());

@@ -33,7 +33,7 @@ public class GraphProcessor implements ConsoleAppProcess, DataAppConstants {
         log.warn("rootLibrary: " + rootLibrary.asJson(true));
 
         GraphBuilder builder = new GraphBuilder(rootLibrary, struct);
-        Graph graph = builder.build(50);
+        Graph graph = builder.buildLibraryGraph(50);
         fu.writeJson(graph, GRAPH_JSON_FILE, true, true);
 
         log.warn("Graph root lib dependencies is correct: " + verifyGraph(rootLibrary, graph));
