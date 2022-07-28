@@ -219,7 +219,10 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             log.warn("doc count in altgraph container: " + count);
         }
 
-        long count = tripleRepository.countAllTriples();
-        log.warn("count ofcountAllTriples: " + count);
+        log.warn("countAllDocuments:   " + tripleRepository.countAllDocuments());
+        log.warn("countAllTriples:     " + tripleRepository.countAllTriples());
+        log.warn("countAllLibraries:   " + tripleRepository.countAllLibraries());
+        log.warn("countAllAuthors:     " + tripleRepository.countAllAuthors());
+        log.warn("countAllMaintainers: " + tripleRepository.countAllMaintainers());
     }
 }

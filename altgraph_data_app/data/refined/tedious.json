@@ -1,9 +1,9 @@
 {
   "doctype" : "library",
   "label" : "tedious",
-  "id" : "4cc0e552-e501-47d4-ada1-2e0cfdafc388",
+  "id" : "62086c00-0ce7-4c65-b1d0-53570fc363be",
   "pk" : "tedious",
-  "_etag" : "\"9c00fb25-0000-0100-0000-62d9c5440000\"",
+  "_etag" : "\"7f04bb6d-0000-0100-0000-62e2f9df0000\"",
   "tenant" : "123",
   "lob" : "npm",
   "cacheKey" : "library|tedious",

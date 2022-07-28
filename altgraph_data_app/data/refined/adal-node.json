@@ -1,9 +1,9 @@
 {
   "doctype" : "library",
   "label" : "adal-node",
-  "id" : "13837e5d-2191-4be8-bd62-c9b414868a42",
+  "id" : "87e2541b-2a61-471f-a733-64ff7b1963d4",
   "pk" : "adal-node",
-  "_etag" : "\"0f009aad-0000-0100-0000-62d9c5280000\"",
+  "_etag" : "\"630039ad-0000-0100-0000-62e2f9c70000\"",
   "tenant" : "123",
   "lob" : "npm",
   "cacheKey" : "library|adal-node",

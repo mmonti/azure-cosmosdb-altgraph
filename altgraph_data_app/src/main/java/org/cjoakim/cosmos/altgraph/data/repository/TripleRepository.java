@@ -20,8 +20,22 @@ public interface TripleRepository extends CosmosRepository<Triple, String>, Trip
     Iterable<Triple> findBySubjectType(String subjectType);
     Iterable<Triple> findBySubjectLabel(String subjectLabel);
     Iterable<Triple> findByTenantAndSubjectLabel(String tenant, String subjectLabel);
+
     @Query("select value count(1) from c")
+    long countAllDocuments();
+
+    @Query("select value count(1) from c where c.doctype = 'triple'")
     long countAllTriples();
+
+    @Query("select value count(1) from c where c.doctype = 'library'")
+    long countAllLibraries();
+
+    @Query("select value count(1) from c where c.doctype = 'author'")
+    long countAllAuthors();
+
+    @Query("select value count(1) from c where c.doctype = 'maintainer'")
+    long countAllMaintainers();
+
     @Query("select value count(1) from c where c.subjectLabel = @subjectLabel")
     long getNumberOfDocsWithSubjectLabel(@Param("subjectLabel") String subjectLabel);
     @Query("select * from c where c.pk = @pk and c.lob = @lob and c.subjectType = @subjectType and c.objectType = @objectType")
