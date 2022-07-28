@@ -69,7 +69,14 @@ public class GraphController implements DataAppConstants {
 
     long startMs = System.currentTimeMillis();
     try {
+      String subject = formObject.getSubjectValue();
+      log.warn("formObject isLibrarySearch:    " + formObject.isLibrarySearch());
+      log.warn("formObject isAuthorSearch:     " + formObject.isAuthorSearch());
+      log.warn("formObject isMaintainerSearch: " + formObject.isMaintainerSearch());
+      log.warn("formObject subject: " + subject);
+
       String libName = formObject.getSubjectName();
+
       Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
       if (library != null) {
         TripleQueryStruct struct = readTriples(
@@ -91,6 +98,41 @@ public class GraphController implements DataAppConstants {
     model.addAttribute("formObject", formObject);
     return "graph";
   }
+
+  private void handleLibrarySearch(HttpSession session, GraphForm formObject) {
+
+    try {
+      String libName = formObject.getSubjectName();
+
+      Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
+      if (library != null) {
+        TripleQueryStruct struct = readTriples(
+                useCachedTriples(formObject.getCacheOpts()),
+                formObject.getSessionId());
+
+        GraphBuilder graphBuilder = new GraphBuilder(library, struct);
+        Graph graph = graphBuilder.build(formObject.getDepthAsInt());
+
+        D3CsvBuilder d3CsvBuilder = new D3CsvBuilder(graph);
+        d3CsvBuilder.buildBillOfMaterialCsv(session.getId(), formObject.getDepthAsInt());
+        d3CsvBuilder.finish();
+      }
+    }
+    catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+
+  private void handleAuthorSearch(HttpSession session, GraphForm formObject) {
+
+    // TODO
+  }
+
+  private void handleMaintainerSearch(HttpSession session, GraphForm formObject) {
+
+    // TODO
+  }
+
 
   @RequestMapping(value = "/get_library/{libraryName}", method=RequestMethod.GET, produces="application/json")
   @ResponseBody
@@ -115,6 +157,7 @@ public class GraphController implements DataAppConstants {
 
   private Library readLibrary(String libName, String sessionId, boolean useCache) {
 
+    log.warn("readLibrary, libName: " + libName + ", useCache: " + useCache);
     Library lib = null;
 
     if (useCache) {
@@ -146,6 +189,7 @@ public class GraphController implements DataAppConstants {
   private TripleQueryStruct readTriples(boolean useCache, String sessionId) throws Exception {
 
     String cacheFilename = getTripleQueryStructCacheFilename(sessionId);
+    log.warn("readTriples, useCache: " + useCache + ", cacheFilename: " + cacheFilename);
 
     if (useCache) {
       log.warn("readTriples, reading cached file " + cacheFilename);
