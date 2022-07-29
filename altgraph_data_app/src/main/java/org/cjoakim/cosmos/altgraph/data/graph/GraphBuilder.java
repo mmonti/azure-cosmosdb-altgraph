@@ -57,7 +57,7 @@ public class GraphBuilder {
         String authorLabel = author.getLabel();
         String rootKey = author.getGraphKey();
         graph.setRootNode(author.getGraphKey());
-        log.warn("buildAuthorGraph, author: " + author.getAuthorName() + ", rootKey: " + rootKey);
+        log.warn("buildAuthorGraph, author: " + authorLabel + ", rootKey: " + rootKey);
 
         for (int i = 0; i < getStruct().getDocuments().size(); i++) {
             Triple t = getStruct().getDocuments().get(i);
@@ -66,12 +66,6 @@ public class GraphBuilder {
                 String value = tags.get(tidx);
                 if (value.startsWith("author")) {
                     if (value.contains(authorLabel)) {
-                        try {
-                            log.warn("buildAuthorGraph " + authorLabel + ", triple: " + t.asJson(false));
-                        }
-                        catch (Exception e) {
-                            throw new RuntimeException(e);
-                        }
                         graph.updateForAuthor(rootKey, t.getSubjectKey(), "author");
                     }
                 }
@@ -96,10 +90,12 @@ public class GraphBuilder {
                 // match for subject key, add object key
                 Triple t = getStruct().getDocuments().get(i);
                 if (t.getSubjectType().equals("library")) {
-                    String subjectKey = t.getSubjectKey();
-                    if (currentKeys.contains(subjectKey)) {
-                        int changes = graph.updateForLibrary(subjectKey, t.getObjectKey(), t.getPredicate());
-                        newNodesThisIteration = newNodesThisIteration + changes;
+                    if (t.getObjectType().equals("library")) {
+                        String subjectKey = t.getSubjectKey();
+                        if (currentKeys.contains(subjectKey)) {
+                            int changes = graph.updateForLibrary(subjectKey, t.getObjectKey(), t.getPredicate());
+                            newNodesThisIteration = newNodesThisIteration + changes;
+                        }
                     }
                 }
             }
