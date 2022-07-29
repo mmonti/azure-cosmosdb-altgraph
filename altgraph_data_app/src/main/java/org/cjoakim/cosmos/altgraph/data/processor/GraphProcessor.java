@@ -89,10 +89,8 @@ public class GraphProcessor implements ConsoleAppProcess, DataAppConstants {
         log.warn("verifyGraph, Library dep count:   " + libKeys.length);
         log.warn("verifyGraph, GraphNode dep count: " + nodeKeys.length);
         log.warn("verifyGraph, expectedLibsFound:   " + expectedLibsFound);
-        if (libKeys.length == nodeKeys.length) {
-            if (libKeys.length == expectedLibsFound) {
-                return true;
-            }
+        if (libKeys.length == expectedLibsFound) {
+            return true;
         }
         return false;
     }

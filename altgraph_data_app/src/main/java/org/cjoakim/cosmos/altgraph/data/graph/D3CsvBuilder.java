@@ -43,23 +43,23 @@ public class D3CsvBuilder implements DataAppConstants {
 
     public void buildBillOfMaterialCsv(String sessionId, int depth) throws Exception {
 
-        collectDataFromGraph(depth);
+        collectLibrariesDataFromGraph(depth);
         buildNodesCsv();
         buildEdgesCsv();
         writeCsvFiles();
     }
 
-    private void collectDataFromGraph(int depth) {
+    private void collectLibrariesDataFromGraph(int depth) {
 
         boolean continueToCollect = true;
         String rootKey = graph.getRootKey();
-        log.warn("collectDataFromGraph rootKey: " + rootKey);
+        log.warn("collectLibrariesDataFromGraph rootKey: " + rootKey);
 
         String rootLib = extractNameFromKey(rootKey);
-        log.warn("collectDataFromGraph rootLib: " + rootLib);
+        log.warn("collectLibrariesDataFromGraph rootLib: " + rootLib);
 
         String rootEdgeKey = edgeKey(rootLib, rootLib);
-        log.warn("collectDataFromGraph rootHashKey: " + rootEdgeKey);
+        log.warn("collectLibrariesDataFromGraph rootHashKey: " + rootEdgeKey);
 
         collectedNodesHash.put(rootKey, "pending");
         collectedEdgesHash.put(rootEdgeKey, "");
@@ -78,14 +78,16 @@ public class D3CsvBuilder implements DataAppConstants {
                     Object[] dependencyKeys = node.getAdjacentNodes().keySet().toArray();
                     for (int d = 0; d < dependencyKeys.length; d++) {
                         String depKey = (String) dependencyKeys[d];
-                        if (collectedNodesHash.containsKey(depKey)) {
-                            //log.warn("already in collectedNodesHash: " + depKey);
-                        }
-                        else {
-                            collectedNodesHash.put(depKey, "pending");
-                            String depLib = extractNameFromKey(depKey);
-                            String depEdgeKey = edgeKey(currLib, depLib);
-                            collectedEdgesHash.put(depEdgeKey, "");
+                        if (depKey.startsWith("library")) {
+                            if (collectedNodesHash.containsKey(depKey)) {
+                                //log.warn("already in collectedNodesHash: " + depKey);
+                            }
+                            else {
+                                collectedNodesHash.put(depKey, "pending");
+                                String depLib = extractNameFromKey(depKey);
+                                String depEdgeKey = edgeKey(currLib, depLib);
+                                collectedEdgesHash.put(depEdgeKey, "");
+                            }
                         }
                     }
                     collectedNodesHash.put(currKey, "processed");

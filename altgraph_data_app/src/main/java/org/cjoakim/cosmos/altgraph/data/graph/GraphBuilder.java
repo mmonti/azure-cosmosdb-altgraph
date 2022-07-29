@@ -35,10 +35,13 @@ public class GraphBuilder {
         this.rootEntity = rootEntity;
         this.struct = struct;
         this.graph = new Graph();
+        rootEntity.populateCacheKey();
     }
 
     public Graph buildLibraryGraph(int maxIterations) {
 
+        rootEntity.populateCacheKey();
+        rootEntity.calculateGraphKey();
         String rootKey = rootEntity.getGraphKey();
         log.warn("buildLibraryGraph, rootKey: " + rootKey);
         graph.setRootNode(rootKey);
