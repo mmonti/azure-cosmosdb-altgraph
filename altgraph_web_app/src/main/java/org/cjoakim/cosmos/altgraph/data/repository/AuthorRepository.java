@@ -2,6 +2,7 @@ package org.cjoakim.cosmos.altgraph.data.repository;
 
 import com.azure.spring.data.cosmos.repository.CosmosRepository;
 import org.cjoakim.cosmos.altgraph.data.model.Author;
+import org.cjoakim.cosmos.altgraph.data.model.Library;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
@@ -13,5 +14,6 @@ import org.springframework.stereotype.Repository;
 @Component
 @Repository
 public interface AuthorRepository extends CosmosRepository<Author, String> {
-    
+
+    Iterable<Author> findByLabel(String label);
 }

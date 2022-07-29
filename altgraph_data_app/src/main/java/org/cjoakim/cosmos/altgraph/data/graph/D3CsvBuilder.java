@@ -150,12 +150,13 @@ public class D3CsvBuilder implements DataAppConstants {
     }
 
     private String extractNameFromKey(String key) {
-
         //String name = key.replace("^", " ").split(" ")[1];
         String name = key.replace("^", ":").split(":")[1].replace(" ", "_");
-        log.warn("extractNameFromKey: " + key + " -> " + name);
+
+        // log.warn("extractNameFromKey: " + key + " -> " + name);
         // library^express^bf8cff83-5f7c-4995-8484-d2f405bcbce7^express -> express
         // author^TJ Holowaychuk <tj@vision-media.ca>^54dff427-35de-4a13-bcad-b3e4124b303a^TJ Holowaychuk <tj@vision-media.ca> -> TJ Holowaychuk <tj@vision-media.ca>
+
         return name;
     }
 

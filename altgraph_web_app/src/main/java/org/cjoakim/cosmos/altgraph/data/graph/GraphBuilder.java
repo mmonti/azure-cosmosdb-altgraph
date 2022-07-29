@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
+import org.cjoakim.cosmos.altgraph.data.model.Author;
 import org.cjoakim.cosmos.altgraph.data.model.Entity;
 import org.cjoakim.cosmos.altgraph.data.model.Triple;
 
@@ -34,16 +35,42 @@ public class GraphBuilder {
         this.rootEntity = rootEntity;
         this.struct = struct;
         this.graph = new Graph();
+        rootEntity.populateCacheKey();
     }
 
     public Graph buildLibraryGraph(int maxIterations) {
 
+        rootEntity.populateCacheKey();
+        rootEntity.calculateGraphKey();
         String rootKey = rootEntity.getGraphKey();
         log.warn("buildLibraryGraph, rootKey: " + rootKey);
         graph.setRootNode(rootKey);
-
         collectLibraryGraph(maxIterations);  // iterate the triples and build the graph from them
+        graph.finish();
+        return graph;
+    }
 
+    public Graph buildAuthorGraph(Author author) {
+
+        author.populateCacheKey();
+        author.calculateGraphKey();
+        String authorLabel = author.getLabel();
+        String rootKey = author.getGraphKey();
+        graph.setRootNode(author.getGraphKey());
+        log.warn("buildAuthorGraph, author: " + authorLabel + ", rootKey: " + rootKey);
+
+        for (int i = 0; i < getStruct().getDocuments().size(); i++) {
+            Triple t = getStruct().getDocuments().get(i);
+            ArrayList<String> tags = t.getSubjectTags();
+            for (int tidx = 0; tidx < tags.size(); tidx++) {
+                String value = tags.get(tidx);
+                if (value.startsWith("author")) {
+                    if (value.contains(authorLabel)) {
+                        graph.updateForAuthor(rootKey, t.getSubjectKey(), "author");
+                    }
+                }
+            }
+        }
         graph.finish();
         return graph;
     }
@@ -59,24 +86,19 @@ public class GraphBuilder {
             iterations++;
             newNodesThisIteration = 0;
             ArrayList<String> currentKeys = graph.getCurrentKeys();
-            //log.warn("collect_start_of_iteration : " + iterations + ", currentKeys: " + currentKeys.size());
-            for (int ck = 0; ck < currentKeys.size(); ck++) {
-                //log.warn("collect_current_key, iteration " + iterations + ": " + currentKeys.get(ck));
-            }
-
             for (int i = 0; i < getStruct().getDocuments().size(); i++) {
                 // match for subject key, add object key
                 Triple t = getStruct().getDocuments().get(i);
-                String subjectKey = t.getSubjectKey();
-                //log.warn("collect_subjectKey: " + subjectKey);
-
-                if (currentKeys.contains(subjectKey)) {
-                    int changes = graph.update(subjectKey, t.getObjectKey(), t.getPredicate());
-                    newNodesThisIteration = newNodesThisIteration + changes;
+                if (t.getSubjectType().equals("library")) {
+                    if (t.getObjectType().equals("library")) {
+                        String subjectKey = t.getSubjectKey();
+                        if (currentKeys.contains(subjectKey)) {
+                            int changes = graph.updateForLibrary(subjectKey, t.getObjectKey(), t.getPredicate());
+                            newNodesThisIteration = newNodesThisIteration + changes;
+                        }
+                    }
                 }
             }
-            //log.warn("newNodesThisIteration: " + newNodesThisIteration + " for iteration: " + iterations);
-
             // terminate the while-loop as necessary
             if (newNodesThisIteration < 1) {
                 continueToCollect = false;
@@ -89,7 +111,6 @@ public class GraphBuilder {
                 }
             }
         }
-
     }
 
     public String asJson(boolean pretty) throws Exception {

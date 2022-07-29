@@ -8,8 +8,10 @@ import org.cjoakim.cosmos.altgraph.data.graph.Graph;
 import org.cjoakim.cosmos.altgraph.data.graph.GraphBuilder;
 import org.cjoakim.cosmos.altgraph.data.graph.TripleQueryStruct;
 import org.cjoakim.cosmos.altgraph.data.io.FileUtil;
+import org.cjoakim.cosmos.altgraph.data.model.Author;
 import org.cjoakim.cosmos.altgraph.data.model.Library;
 import org.cjoakim.cosmos.altgraph.data.model.Triple;
+import org.cjoakim.cosmos.altgraph.data.repository.AuthorRepository;
 import org.cjoakim.cosmos.altgraph.data.repository.LibraryRepository;
 import org.cjoakim.cosmos.altgraph.data.repository.TripleRepository;
 import org.cjoakim.cosmos.altgraph.web.forms.GraphForm;
@@ -33,14 +35,17 @@ import java.util.Iterator;
 @Controller
 public class GraphController implements DataAppConstants {
   private LibraryRepository libraryRepository = null;
+
+  private AuthorRepository authorRepository = null;
   private TripleRepository  tripleRepository = null;
   private Cache cache;
   private FileUtil fileUtil = new FileUtil();
 
   @Autowired
-  public GraphController(LibraryRepository lr, TripleRepository tr, Cache c) {
+  public GraphController(LibraryRepository lr, AuthorRepository ar, TripleRepository tr, Cache c) {
     super();
     libraryRepository = lr;
+    authorRepository  = ar;
     tripleRepository  = tr;
     cache = c;
   }
@@ -75,21 +80,27 @@ public class GraphController implements DataAppConstants {
       log.warn("formObject isMaintainerSearch: " + formObject.isMaintainerSearch());
       log.warn("formObject subject: " + subject);
 
-      String libName = formObject.getSubjectName();
-
-      Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
-      if (library != null) {
-        TripleQueryStruct struct = readTriples(
-                useCachedTriples(formObject.getCacheOpts()),
-                formObject.getSessionId());
-
-        GraphBuilder graphBuilder = new GraphBuilder(library, struct);
-        Graph graph = graphBuilder.buildLibraryGraph(formObject.getDepthAsInt());
-
-        D3CsvBuilder d3CsvBuilder = new D3CsvBuilder(graph);
-        d3CsvBuilder.buildBillOfMaterialCsv(session.getId(), formObject.getDepthAsInt());
-        d3CsvBuilder.finish();
+      if (formObject.isAuthorSearch()) {
+        handleAuthorSearch(session, formObject);
       }
+      else {
+        handleLibrarySearch(session, formObject);
+      }
+//      String libName = formObject.getSubjectName();
+//
+//      Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
+//      if (library != null) {
+//        TripleQueryStruct struct = readTriples(
+//                useCachedTriples(formObject.getCacheOpts()),
+//                formObject.getSessionId());
+//
+//        GraphBuilder graphBuilder = new GraphBuilder(library, struct);
+//        Graph graph = graphBuilder.buildLibraryGraph(formObject.getDepthAsInt());
+//
+//        D3CsvBuilder d3CsvBuilder = new D3CsvBuilder(graph);
+//        d3CsvBuilder.buildBillOfMaterialCsv(session.getId(), formObject.getDepthAsInt());
+//        d3CsvBuilder.finish();
+//      }
     }
     catch (Exception e) {
       e.printStackTrace();
@@ -102,9 +113,9 @@ public class GraphController implements DataAppConstants {
   private void handleLibrarySearch(HttpSession session, GraphForm formObject) {
 
     try {
-      String libName = formObject.getSubjectName();
-
+      String libName = formObject.getSubjectValue();
       Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
+
       if (library != null) {
         TripleQueryStruct struct = readTriples(
                 useCachedTriples(formObject.getCacheOpts()),
@@ -125,7 +136,26 @@ public class GraphController implements DataAppConstants {
 
   private void handleAuthorSearch(HttpSession session, GraphForm formObject) {
 
-    // TODO
+    try {
+      String  libName = formObject.getSubjectValue();
+      Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
+      Author  author  = readAuthorByLabel(library.getAuthor(), session.getId(), useCachedLibrary(formObject.getCacheOpts()));
+      log.warn("handleAuthorSearch, libName: " + libName + ", author: " + library.getAuthor());
+
+      if (author != null) {
+        TripleQueryStruct struct = readTriples(
+                useCachedTriples(formObject.getCacheOpts()),
+                formObject.getSessionId());
+        GraphBuilder graphBuilder = new GraphBuilder(author, struct);
+        Graph graph = graphBuilder.buildAuthorGraph(author);
+        D3CsvBuilder d3CsvBuilder = new D3CsvBuilder(graph);
+        d3CsvBuilder.buildBillOfMaterialCsv(session.getId(), formObject.getDepthAsInt());
+        d3CsvBuilder.finish();
+      }
+    }
+    catch (Exception e) {
+      e.printStackTrace();
+    }
   }
 
   private void handleMaintainerSearch(HttpSession session, GraphForm formObject) {
@@ -186,6 +216,18 @@ public class GraphController implements DataAppConstants {
     }
     return null;
   }
+
+  private Author readAuthorByLabel(String label, String sessionId, boolean useCache) {
+
+    Iterable<Author> iterable = authorRepository.findByLabel(label);
+    Iterator<Author> it = iterable.iterator();
+    while (it.hasNext()) {
+      Author a = it.next();
+      return a;
+    }
+    return null;
+  }
+
   private TripleQueryStruct readTriples(boolean useCache, String sessionId) throws Exception {
 
     String cacheFilename = getTripleQueryStructCacheFilename(sessionId);

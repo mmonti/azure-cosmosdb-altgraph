@@ -38,7 +38,8 @@ public class Entity {
     private String graphKey;
 
     public void populateCacheKey() {
-        cacheKey = doctype + "|" + label;
+
+        cacheKey = "" + doctype + "|" + label;
     }
 
     public String calculateGraphKey() {
@@ -51,7 +52,8 @@ public class Entity {
         sb.append(this.getId());
         sb.append("^");
         sb.append(this.getPk());
-        return sb.toString();
+        graphKey = sb.toString();
+        return graphKey;
     }
 
     public String asJson(boolean pretty) throws Exception {

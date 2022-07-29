@@ -34,11 +34,16 @@ public class D3CsvBuilder implements DataAppConstants {
     private HashMap<String, String> collectedEdgesHash = new HashMap<String, String>();
     private int collectedEdgesCount;
 
+    private String nodesCsvFile = null;
+    private String edgesCsvFile = null;
+
     int iterationCount = 0;
 
     public D3CsvBuilder(Graph g) {
         super();
         graph = g;
+        nodesCsvFile = GRAPH_NODES_CSV_FILE;
+        edgesCsvFile = GRAPH_EDGES_CSV_FILE;
     }
 
     public void buildBillOfMaterialCsv(String sessionId, int depth) throws Exception {
@@ -53,13 +58,13 @@ public class D3CsvBuilder implements DataAppConstants {
 
         boolean continueToCollect = true;
         String rootKey = graph.getRootKey();
-        log.warn("collectDataFromGraph rootKey: " + rootKey);
+        log.warn("collectLibrariesDataFromGraph rootKey: " + rootKey);
 
         String rootLib = extractNameFromKey(rootKey);
-        log.warn("collectDataFromGraph rootLib: " + rootLib);
+        log.warn("collectLibrariesDataFromGraph rootLib: " + rootLib);
 
         String rootEdgeKey = edgeKey(rootLib, rootLib);
-        log.warn("collectDataFromGraph rootHashKey: " + rootEdgeKey);
+        log.warn("collectLibrariesDataFromGraph rootHashKey: " + rootEdgeKey);
 
         collectedNodesHash.put(rootKey, "pending");
         collectedEdgesHash.put(rootEdgeKey, "");
@@ -78,14 +83,16 @@ public class D3CsvBuilder implements DataAppConstants {
                     Object[] dependencyKeys = node.getAdjacentNodes().keySet().toArray();
                     for (int d = 0; d < dependencyKeys.length; d++) {
                         String depKey = (String) dependencyKeys[d];
-                        if (collectedNodesHash.containsKey(depKey)) {
-                            //log.warn("already in collectedNodesHash: " + depKey);
-                        }
-                        else {
-                            collectedNodesHash.put(depKey, "pending");
-                            String depLib = extractNameFromKey(depKey);
-                            String depEdgeKey = edgeKey(currLib, depLib);
-                            collectedEdgesHash.put(depEdgeKey, "");
+                        if (depKey.startsWith("library")) {
+                            if (collectedNodesHash.containsKey(depKey)) {
+                                //log.warn("already in collectedNodesHash: " + depKey);
+                            }
+                            else {
+                                collectedNodesHash.put(depKey, "pending");
+                                String depLib = extractNameFromKey(depKey);
+                                String depEdgeKey = edgeKey(currLib, depLib);
+                                collectedEdgesHash.put(depEdgeKey, "");
+                            }
                         }
                     }
                     collectedNodesHash.put(currKey, "processed");
@@ -143,16 +150,22 @@ public class D3CsvBuilder implements DataAppConstants {
     }
 
     private String extractNameFromKey(String key) {
+        //String name = key.replace("^", " ").split(" ")[1];
+        String name = key.replace("^", ":").split(":")[1].replace(" ", "_");
 
-        return key.replace("^", " ").split(" ")[1];
+        // log.warn("extractNameFromKey: " + key + " -> " + name);
+        // library^express^bf8cff83-5f7c-4995-8484-d2f405bcbce7^express -> express
+        // author^TJ Holowaychuk <tj@vision-media.ca>^54dff427-35de-4a13-bcad-b3e4124b303a^TJ Holowaychuk <tj@vision-media.ca> -> TJ Holowaychuk <tj@vision-media.ca>
+
+        return name;
     }
 
     private void writeCsvFiles() throws Exception {
 
         // GRAPH_NODES_CSV_FILE
         FileUtil fu = new FileUtil();
-        fu.writeLines(GRAPH_NODES_CSV_FILE, nodesCsvLines, true);
-        fu.writeLines(GRAPH_EDGES_CSV_FILE, edgeCsvLines, true);
+        fu.writeLines(nodesCsvFile, nodesCsvLines, true);
+        fu.writeLines(edgesCsvFile, edgeCsvLines, true);
     }
 
     public String asJson(boolean pretty) throws Exception {

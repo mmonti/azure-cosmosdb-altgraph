@@ -43,10 +43,30 @@ public class Graph {
         graphMap.put(key, node);
     }
 
-    public int update(String subjectKey, String objectKey, String predicate) {
-        //log.warn("addNode; subjectKey: " + subjectKey + " objectKey: " + objectKey + " predicate: " + predicate);
-        int changeCount = 0;
+    public int updateForLibrary(String subjectKey, String objectKey, String predicate) {
 
+        int changeCount = 0;
+        GraphNode subjectNode = null;
+        GraphNode objectNode  = null;
+
+        if (graphMap.containsKey(objectKey)) {
+            objectNode = graphMap.get(objectKey);
+        }
+        else {
+            objectNode = createNewNode(objectKey);
+            changeCount++;
+        }
+
+        subjectNode = graphMap.get(subjectKey);
+        int addAdjResult = subjectNode.addAdjacent(objectNode, predicate);
+        changeCount = changeCount + addAdjResult;
+
+        return changeCount;
+    }
+
+    public int updateForAuthor(String subjectKey, String objectKey, String predicate) {
+
+        int changeCount = 0;
         GraphNode subjectNode = null;
         GraphNode objectNode  = null;
 
