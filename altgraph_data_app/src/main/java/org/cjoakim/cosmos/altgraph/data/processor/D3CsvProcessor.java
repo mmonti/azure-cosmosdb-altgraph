@@ -23,17 +23,24 @@ public class D3CsvProcessor implements ConsoleAppProcess, DataAppConstants {
 
     public void process() throws Exception {
 
-        // First build CSVs for Library Graph
+        // First build CSVs for Library Graph with default filenames
         Graph graph = readCapturedLibraryGraph();
         log.warn("graph: " + graph.asJson(true));
         String sessionId = "123"; // + System.currentTimeMillis();
         D3CsvBuilder builder = new D3CsvBuilder(graph);
+        builder.buildBillOfMaterialCsv(sessionId, 2);
+        builder.finish();
+
+        // Next build CSVs for Library Graph with override filenames
+        graph = readCapturedLibraryGraph();
+        log.warn("graph: " + graph.asJson(true));
+        builder = new D3CsvBuilder(graph);
         builder.setNodesCsvFile("data/graph/library_nodes.csv");
         builder.setEdgesCsvFile("data/graph/library_edges.csv");
         builder.buildBillOfMaterialCsv(sessionId, 2);
         builder.finish();
 
-        // Next build CSVs for an Author Graph
+        // Next build CSVs for an Author Graph  with override filenames
         graph = readCapturedAuthorGraph();
         log.warn("graph: " + graph.asJson(true));
         builder = new D3CsvBuilder(graph);
