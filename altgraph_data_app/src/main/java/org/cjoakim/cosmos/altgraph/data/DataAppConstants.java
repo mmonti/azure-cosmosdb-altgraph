@@ -46,7 +46,8 @@ public interface DataAppConstants {
 
     public static final String TRIPLE_QUERY_STRUCT_FILE = "data/struct/TripleQueryStruct.json";
 
-    public static final String GRAPH_JSON_FILE         = "data/graph/graph.json";
+    public static final String LIBRARY_GRAPH_JSON_FILE = "data/graph/library_graph.json";
+    public static final String AUTHOR_GRAPH_JSON_FILE  = "data/graph/author_graph.json";
     public static final String GRAPH_NODES_CSV_FILE    = "data/graph/nodes.csv";
     public static final String GRAPH_EDGES_CSV_FILE    = "data/graph/edges.csv";
     public static final String D3_CSV_BUILDER_FILE     = "data/struct/D3CsvBuilder.json";

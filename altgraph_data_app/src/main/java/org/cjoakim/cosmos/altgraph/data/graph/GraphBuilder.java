@@ -52,7 +52,9 @@ public class GraphBuilder {
 
     public Graph buildAuthorGraph(Author author) {
 
-        String authorName = author.getAuthorName();
+        author.populateCacheKey();
+        author.calculateGraphKey();
+        String authorLabel = author.getLabel();
         String rootKey = author.getGraphKey();
         graph.setRootNode(author.getGraphKey());
         log.warn("buildAuthorGraph, author: " + author.getAuthorName() + ", rootKey: " + rootKey);
@@ -63,8 +65,14 @@ public class GraphBuilder {
             for (int tidx = 0; tidx < tags.size(); tidx++) {
                 String value = tags.get(tidx);
                 if (value.startsWith("author")) {
-                    if (value.contains(authorName)) {
-                        graph.update(t.getSubjectKey(), t.getObjectKey(), t.getPredicate());
+                    if (value.contains(authorLabel)) {
+                        try {
+                            log.warn("buildAuthorGraph " + authorLabel + ", triple: " + t.asJson(false));
+                        }
+                        catch (Exception e) {
+                            throw new RuntimeException(e);
+                        }
+                        graph.updateForAuthor(rootKey, t.getSubjectKey(), "author");
                     }
                 }
             }
@@ -90,7 +98,7 @@ public class GraphBuilder {
                 if (t.getSubjectType().equals("library")) {
                     String subjectKey = t.getSubjectKey();
                     if (currentKeys.contains(subjectKey)) {
-                        int changes = graph.update(subjectKey, t.getObjectKey(), t.getPredicate());
+                        int changes = graph.updateForLibrary(subjectKey, t.getObjectKey(), t.getPredicate());
                         newNodesThisIteration = newNodesThisIteration + changes;
                     }
                 }

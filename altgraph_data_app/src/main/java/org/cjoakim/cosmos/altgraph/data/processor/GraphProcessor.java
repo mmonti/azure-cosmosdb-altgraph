@@ -35,10 +35,15 @@ public class GraphProcessor implements ConsoleAppProcess, DataAppConstants {
         log.warn("rootLibrary: " + rootLibrary.asJson(true));
         GraphBuilder builder = new GraphBuilder(rootLibrary, struct);
         Graph graph = builder.buildLibraryGraph(50);
-        fu.writeJson(graph, GRAPH_JSON_FILE, true, true);
+        fu.writeJson(graph, LIBRARY_GRAPH_JSON_FILE, true, true);
         log.warn("Graph root lib dependencies is correct: " + verifyGraph(rootLibrary, graph));
 
         // First build an Author Graph
+        Author author = readAuthorTjHolowaychuk();
+        log.warn("author: " + author.asJson(true));
+        builder = new GraphBuilder(author, struct);
+        graph = builder.buildAuthorGraph(author);
+        fu.writeJson(graph, AUTHOR_GRAPH_JSON_FILE, true, true);
     }
 
     private Library readLibraryExpressFixture() throws Exception {
