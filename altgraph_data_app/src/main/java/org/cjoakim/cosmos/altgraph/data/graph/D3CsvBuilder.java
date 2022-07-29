@@ -34,22 +34,27 @@ public class D3CsvBuilder implements DataAppConstants {
     private HashMap<String, String> collectedEdgesHash = new HashMap<String, String>();
     private int collectedEdgesCount;
 
+    private String nodesCsvFile = null;
+    private String edgesCsvFile = null;
+
     int iterationCount = 0;
 
     public D3CsvBuilder(Graph g) {
         super();
         graph = g;
+        nodesCsvFile = GRAPH_NODES_CSV_FILE;
+        edgesCsvFile = GRAPH_EDGES_CSV_FILE;
     }
 
     public void buildBillOfMaterialCsv(String sessionId, int depth) throws Exception {
 
-        collectLibrariesDataFromGraph(depth);
+        collectDataFromGraph(depth);
         buildNodesCsv();
         buildEdgesCsv();
         writeCsvFiles();
     }
 
-    private void collectLibrariesDataFromGraph(int depth) {
+    private void collectDataFromGraph(int depth) {
 
         boolean continueToCollect = true;
         String rootKey = graph.getRootKey();
@@ -146,15 +151,20 @@ public class D3CsvBuilder implements DataAppConstants {
 
     private String extractNameFromKey(String key) {
 
-        return key.replace("^", " ").split(" ")[1];
+        //String name = key.replace("^", " ").split(" ")[1];
+        String name = key.replace("^", ":").split(":")[1].replace(" ", "_");
+        log.warn("extractNameFromKey: " + key + " -> " + name);
+        // library^express^bf8cff83-5f7c-4995-8484-d2f405bcbce7^express -> express
+        // author^TJ Holowaychuk <tj@vision-media.ca>^54dff427-35de-4a13-bcad-b3e4124b303a^TJ Holowaychuk <tj@vision-media.ca> -> TJ Holowaychuk <tj@vision-media.ca>
+        return name;
     }
 
     private void writeCsvFiles() throws Exception {
 
         // GRAPH_NODES_CSV_FILE
         FileUtil fu = new FileUtil();
-        fu.writeLines(GRAPH_NODES_CSV_FILE, nodesCsvLines, true);
-        fu.writeLines(GRAPH_EDGES_CSV_FILE, edgeCsvLines, true);
+        fu.writeLines(nodesCsvFile, nodesCsvLines, true);
+        fu.writeLines(edgesCsvFile, edgeCsvLines, true);
     }
 
     public String asJson(boolean pretty) throws Exception {

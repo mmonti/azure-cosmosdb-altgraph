@@ -23,26 +23,38 @@ public class D3CsvProcessor implements ConsoleAppProcess, DataAppConstants {
 
     public void process() throws Exception {
 
-        Graph graph = readCapturedGraph();
+        // First build CSVs for Library Graph
+        Graph graph = readCapturedLibraryGraph();
         log.warn("graph: " + graph.asJson(true));
-
         String sessionId = "123"; // + System.currentTimeMillis();
         D3CsvBuilder builder = new D3CsvBuilder(graph);
+        builder.setNodesCsvFile("data/graph/library_nodes.csv");
+        builder.setEdgesCsvFile("data/graph/library_edges.csv");
         builder.buildBillOfMaterialCsv(sessionId, 2);
         builder.finish();
-        //log.warn("" + builder.asJson(true));
 
-        FileUtil fu = new FileUtil();
-        fu.writeJson(builder, D3_CSV_BUILDER_FILE, true, true);
+        // Next build CSVs for an Author Graph
+        graph = readCapturedAuthorGraph();
+        log.warn("graph: " + graph.asJson(true));
+        builder = new D3CsvBuilder(graph);
+        builder.setNodesCsvFile("data/graph/author_nodes.csv");
+        builder.setEdgesCsvFile("data/graph/author_edges.csv");
+        builder.buildBillOfMaterialCsv(sessionId, 2);
+        builder.finish();
     }
 
-    private Graph readCapturedGraph() throws Exception {
+    private Graph readCapturedLibraryGraph() throws Exception {
 
-        return new FileUtil().readGraph("data/graph/graph.json");
+        return new FileUtil().readGraph("data/graph/library_graph.json");
     }
 
-    private Library readTediousRootTriple() throws Exception {
+    private Graph readCapturedAuthorGraph() throws Exception {
 
-        return new FileUtil().readLibrary("data/refined/tedious.json");
+        return new FileUtil().readGraph("data/graph/author_graph.json");
     }
+
+//    private Library readTediousRootTriple() throws Exception {
+//
+//        return new FileUtil().readLibrary("data/refined/tedious.json");
+//    }
 }
