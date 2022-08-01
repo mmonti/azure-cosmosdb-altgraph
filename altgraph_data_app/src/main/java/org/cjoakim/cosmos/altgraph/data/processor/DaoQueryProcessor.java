@@ -45,41 +45,29 @@ public class DaoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             dao.initialize(uri, key, dbName);
 
             StringBuffer sb = new StringBuffer();
-            sb.append("select * from c where c.doctype = 'triple'");
-            sb.append(" and c.tenant = '123'");
-            sb.append(" and c.lob = 'npm'");
-            sb.append(" and c.subjectType = 'library'");
-            sb.append(" and c.objectType = 'library'");
-            //sb.append(" and c.predicate = 'uses_lib'");
+                sb.append("select * from c where c.doctype = 'triple'");
+//            sb.append(" and c.tenant = '123'");
+//            sb.append(" and c.lob = 'npm'");
+//            sb.append(" and c.subjectType = 'library'");
+//            sb.append(" and c.objectType = 'library'");
 
             TripleQueryStruct allTriplesStruct = new TripleQueryStruct();
             allTriplesStruct.setContainerName("altgraph");
             allTriplesStruct.setSql(sb.toString());
             TripleQueryStruct result = dao.queryTriples(allTriplesStruct);
-            //log.warn(result.asJson(true));
+            log.warn("result.getRequestCharge(): " + result.getRequestCharge());
 
             FileUtil fu = new FileUtil();
             fu.writeJson(result, TRIPLE_QUERY_STRUCT_FILE, true, true);
 
             TripleQueryStruct struct2 = fu.readTripleQueryStruct(TRIPLE_QUERY_STRUCT_FILE);
-            log.warn(struct2.asJson(true));
+            //log.warn(struct2.asJson(true));
             log.warn("struct type:    " + struct2.getStructType());
             log.warn("documents size: " + struct2.getDocuments().size());
 
-//    SELECT * FROM c
-//    where c.doctype = 'library'
-//    and c.pk = 'express'
-//    and c.tenant = '123'
-//    {
-//        "doctype": "library",
-//            "label": "express",
-//            "id": "f5dd5a11-1d2c-41ed-97ea-08dcdeaf64e5",
-//            "pk": "express",
-//            "tenant": "123",
-//            "cacheKey": "library|express",
-//            "name": "express",
-//            "desc": "Fast, unopinionated, minimalist web framework"
-
+            //16:36:08.669 [main] WARN  o.c.c.altgraph.data.dao.CosmosDAO - page.getRequestCharge(): 170.28
+            //16:36:08.927 [main] WARN  o.c.c.altgraph.data.dao.CosmosDAO - page.getRequestCharge(): 149.6
+            //16:36:08.927 [main] WARN  o.c.c.a.d.p.DaoQueryProcessor - result.getRequestCharge(): 319.88
         }
         finally {
             dao.close();

@@ -235,6 +235,24 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
 
         if (true) {
             log.warn("---");
+            log.warn("process tripleRepository.getByDoctype");
+            // Test the extension method in TripleRepositoryExtensions
+            TripleQueryStruct struct = new TripleQueryStruct();
+            Iterable<Triple> iterable = tripleRepository.getByDoctype("triple");
+            Iterator<Triple> it = iterable.iterator();
+            long docCount = 0;
+            while (it.hasNext()) {
+                Triple t = it.next();
+                struct.addDocument(t);
+                log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
+                docCount++;
+            }
+            log.warn("findBySubjectLabelsIn count: " + docCount);
+            log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
+        }
+
+        if (true) {
+            log.warn("---");
             log.warn("process template count");
             // example of using CosmosTemplate outside of a Repository
             log.warn("template: " + template);
