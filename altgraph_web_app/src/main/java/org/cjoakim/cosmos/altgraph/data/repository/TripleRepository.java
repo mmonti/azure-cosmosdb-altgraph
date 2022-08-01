@@ -38,6 +38,7 @@ public interface TripleRepository extends CosmosRepository<Triple, String>, Trip
 
     @Query("select value count(1) from c where c.subjectLabel = @subjectLabel")
     long getNumberOfDocsWithSubjectLabel(@Param("subjectLabel") String subjectLabel);
+
     @Query("select * from c where c.pk = @pk and c.lob = @lob and c.subjectType = @subjectType and c.objectType = @objectType")
     List<Triple> getByPkLobAndSubjects(
             @Param("pk") String pk,      // "pk": "triple|123"

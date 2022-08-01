@@ -13,6 +13,7 @@ import org.cjoakim.cosmos.altgraph.data.model.Library;
 import org.cjoakim.cosmos.altgraph.data.model.Triple;
 import org.cjoakim.cosmos.altgraph.data.repository.AuthorRepository;
 import org.cjoakim.cosmos.altgraph.data.repository.LibraryRepository;
+import org.cjoakim.cosmos.altgraph.data.repository.ResponseDiagnosticsProcessorImpl;
 import org.cjoakim.cosmos.altgraph.data.repository.TripleRepository;
 import org.cjoakim.cosmos.altgraph.web.forms.GraphForm;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -140,12 +141,6 @@ public class GraphController implements DataAppConstants {
     }
   }
 
-  private void handleMaintainerSearch(HttpSession session, GraphForm formObject) {
-
-    // TODO
-  }
-
-
   @RequestMapping(value = "/get_library/{libraryName}", method=RequestMethod.GET, produces="application/json")
   @ResponseBody
   public String getLibraryAsJson(HttpSession session, @PathVariable("libraryName") String libraryName) {
@@ -194,20 +189,21 @@ public class GraphController implements DataAppConstants {
       catch (Exception e) {
         e.printStackTrace();
       }
-      return lib;
     }
-    return null;
+    log.warn("readLibrary, last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
+    return lib;
   }
 
   private Author readAuthorByLabel(String label, String sessionId, boolean useCache) {
 
+    Author author = null;
     Iterable<Author> iterable = authorRepository.findByLabel(label);
     Iterator<Author> it = iterable.iterator();
     while (it.hasNext()) {
-      Author a = it.next();
-      return a;
+      author = it.next();
     }
-    return null;
+    log.warn("readAuthorByLabel, last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
+    return author;
   }
 
   private TripleQueryStruct readTriples(boolean useCache, String sessionId) throws Exception {
@@ -248,6 +244,7 @@ public class GraphController implements DataAppConstants {
     catch (Exception e) {
       e.printStackTrace();
     }
+    log.warn("readTriples, last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
     return struct;
   }
 

@@ -10,6 +10,7 @@ import com.azure.spring.data.cosmos.core.ResponseDiagnostics;
 import com.azure.spring.data.cosmos.core.ResponseDiagnosticsProcessor;
 import com.azure.spring.data.cosmos.repository.config.EnableCosmosRepositories;
 import lombok.extern.slf4j.Slf4j;
+import org.cjoakim.cosmos.altgraph.data.repository.ResponseDiagnosticsProcessorImpl;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -167,6 +168,8 @@ public class DataAppConfiguration extends AbstractCosmosConfiguration implements
     @Bean
     public CosmosClientBuilder getCosmosClientBuilder() {
 
+        log.warn("getCosmosClientBuilder, uri: " + uri);
+
         this.azureKeyCredential = new AzureKeyCredential(key);
         DirectConnectionConfig directConnectionConfig = new DirectConnectionConfig();
         GatewayConnectionConfig gatewayConnectionConfig = new GatewayConnectionConfig();
@@ -179,26 +182,19 @@ public class DataAppConfiguration extends AbstractCosmosConfiguration implements
     @Override
     public CosmosConfig cosmosConfig() {
 
+        log.warn("cosmosConfig, queryMetricsEnabled: " + queryMetricsEnabled);
+
         return CosmosConfig.builder()
+                .responseDiagnosticsProcessor(new ResponseDiagnosticsProcessorImpl())
                 .enableQueryMetrics(true)
-                //.responseDiagnosticsProcessor(new ResponseDiagnosticsProcessorImplementation())
                 .build();
     }
-
 
     @Override
     protected String getDatabaseName() {
 
         log.warn("getDatabaseName returning: " + dbName);
         return dbName;
-    }
-
-    private static class ResponseDiagnosticsProcessorImplementation implements ResponseDiagnosticsProcessor {
-
-        @Override
-        public void processResponseDiagnostics(@Nullable ResponseDiagnostics responseDiagnostics) {
-            log.info("Response Diagnostics {}", responseDiagnostics);
-        }
     }
 
 }
