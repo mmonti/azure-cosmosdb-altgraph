@@ -54,7 +54,7 @@ public class GraphController implements DataAppConstants {
   public String showGraphForm(HttpSession session, Model model) {
     GraphForm formObject = new GraphForm();
     formObject.setSubjectName("");
-    formObject.setGraphDepth("1");
+    formObject.setGraphDepth("");
     formObject.setElapsedMs("");
     formObject.setCacheOpts("");
     formObject.setSessionId(session.getId());
@@ -118,7 +118,7 @@ public class GraphController implements DataAppConstants {
   private void handleAuthorSearch(HttpSession session, GraphForm formObject) {
 
     try {
-      formObject.setGraphDepth("1");
+      formObject.setGraphDepth("0");
       String  libName = formObject.getSubjectName();
       Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
       Author  author  = readAuthorByLabel(library.getAuthor(), session.getId(), useCachedLibrary(formObject.getCacheOpts()));
