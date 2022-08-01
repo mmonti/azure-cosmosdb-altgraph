@@ -74,33 +74,14 @@ public class GraphController implements DataAppConstants {
 
     long startMs = System.currentTimeMillis();
     try {
-      String subject = formObject.getSubjectValue();
-      log.warn("formObject isLibrarySearch:    " + formObject.isLibrarySearch());
-      log.warn("formObject isAuthorSearch:     " + formObject.isAuthorSearch());
-      log.warn("formObject isMaintainerSearch: " + formObject.isMaintainerSearch());
-      log.warn("formObject subject: " + subject);
+      log.warn(formObject.asJson(true));
 
-      if (formObject.isAuthorSearch()) {
+      if (formObject.isAuthorCheckbox()) {
         handleAuthorSearch(session, formObject);
       }
       else {
         handleLibrarySearch(session, formObject);
       }
-//      String libName = formObject.getSubjectName();
-//
-//      Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
-//      if (library != null) {
-//        TripleQueryStruct struct = readTriples(
-//                useCachedTriples(formObject.getCacheOpts()),
-//                formObject.getSessionId());
-//
-//        GraphBuilder graphBuilder = new GraphBuilder(library, struct);
-//        Graph graph = graphBuilder.buildLibraryGraph(formObject.getDepthAsInt());
-//
-//        D3CsvBuilder d3CsvBuilder = new D3CsvBuilder(graph);
-//        d3CsvBuilder.buildBillOfMaterialCsv(session.getId(), formObject.getDepthAsInt());
-//        d3CsvBuilder.finish();
-//      }
     }
     catch (Exception e) {
       e.printStackTrace();
@@ -113,7 +94,7 @@ public class GraphController implements DataAppConstants {
   private void handleLibrarySearch(HttpSession session, GraphForm formObject) {
 
     try {
-      String libName = formObject.getSubjectValue();
+      String libName = formObject.getSubjectName();
       Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
 
       if (library != null) {
@@ -137,7 +118,8 @@ public class GraphController implements DataAppConstants {
   private void handleAuthorSearch(HttpSession session, GraphForm formObject) {
 
     try {
-      String  libName = formObject.getSubjectValue();
+      formObject.setGraphDepth("1");
+      String  libName = formObject.getSubjectName();
       Library library = readLibrary(libName, session.getId(), useCachedLibrary(formObject.getCacheOpts()));
       Author  author  = readAuthorByLabel(library.getAuthor(), session.getId(), useCachedLibrary(formObject.getCacheOpts()));
       log.warn("handleAuthorSearch, libName: " + libName + ", author: " + library.getAuthor());

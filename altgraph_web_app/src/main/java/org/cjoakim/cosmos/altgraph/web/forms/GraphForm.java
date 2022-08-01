@@ -20,6 +20,8 @@ public class GraphForm {
 
     private String subjectName;
 
+    private boolean authorCheckbox;
+
     private String graphDepth;
 
     private String cacheOpts;
@@ -27,51 +29,6 @@ public class GraphForm {
     private String elapsedMs;
 
     private String sessionId;
-
-    /**
-     * The subjectName can be a delimited String "l:tedious", "tedious", "a:TJ...", or "m:xxxx".
-     * Return the porting of the value after the colon, if present.
-     */
-    public String getSubjectValue() {
-
-        if (getSubjectName() == null) {
-            return null;
-        }
-        int colonIdx = getSubjectName().indexOf(':');
-        if (colonIdx > 0) {
-            return getSubjectName().substring(colonIdx + 1).trim();
-        }
-        else {
-            return getSubjectName().trim();
-        }
-    }
-
-    public boolean isLibrarySearch() {
-
-        if (isAuthorSearch()) {
-            return false;
-        }
-        if (isMaintainerSearch()) {
-            return false;
-        }
-        return true;
-    }
-
-    public boolean isAuthorSearch() {
-
-        if (getSubjectName() == null) {
-            return false;
-        }
-        return getSubjectName().trim().toLowerCase().startsWith("a:");
-    }
-
-    public boolean isMaintainerSearch() {
-
-        if (getSubjectName() == null) {
-            return false;
-        }
-        return getSubjectName().trim().toLowerCase().startsWith("m:");
-    }
 
     public int getDepthAsInt() {
 
