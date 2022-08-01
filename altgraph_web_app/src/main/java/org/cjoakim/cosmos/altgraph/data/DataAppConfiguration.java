@@ -180,7 +180,7 @@ public class DataAppConfiguration extends AbstractCosmosConfiguration implements
     public CosmosConfig cosmosConfig() {
 
         return CosmosConfig.builder()
-                .enableQueryMetrics(queryMetricsEnabled)
+                .enableQueryMetrics(true)
                 //.responseDiagnosticsProcessor(new ResponseDiagnosticsProcessorImplementation())
                 .build();
     }

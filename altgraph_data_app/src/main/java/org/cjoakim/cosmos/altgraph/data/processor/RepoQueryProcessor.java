@@ -8,10 +8,7 @@ import org.cjoakim.cosmos.altgraph.data.graph.TripleQueryStruct;
 import org.cjoakim.cosmos.altgraph.data.io.FileUtil;
 import org.cjoakim.cosmos.altgraph.data.model.Library;
 import org.cjoakim.cosmos.altgraph.data.model.Triple;
-import org.cjoakim.cosmos.altgraph.data.repository.AuthorRepository;
-import org.cjoakim.cosmos.altgraph.data.repository.LibraryRepository;
-import org.cjoakim.cosmos.altgraph.data.repository.MaintainerRepository;
-import org.cjoakim.cosmos.altgraph.data.repository.TripleRepository;
+import org.cjoakim.cosmos.altgraph.data.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -72,6 +69,8 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
 
         // Find the Libraries
         if (true) {
+            log.warn("---");
+            log.warn("process libraryRepository.findByPkAndTenant");
             for (int i = 0; i < libsOfInterest.size(); i++) {
                 String libName = libsOfInterest.get(i);
                 Iterable<Library> iterable = libraryRepository.findByPkAndTenant(libName, tenant);
@@ -85,11 +84,14 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
                         throw new RuntimeException(e);
                     }
                 });
+                log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
             }
         }
 
         // Find the corresponding Triples
-        if (false) {
+        if (true) {
+            log.warn("---");
+            log.warn("process tripleRepository.findByTenantAndSubjectLabel");
             for (int i = 0; i < libsOfInterest.size(); i++) {
                 String libName = libsOfInterest.get(i);
                 Iterable<Triple> iterable = tripleRepository.findByTenantAndSubjectLabel(tenant, libName);
@@ -102,9 +104,12 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
                     }
                 });
             }
+            log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
         }
 
-        if (false) {
+        if (true) {
+            log.warn("---");
+            log.warn("process tripleRepository.getByTenantAndSubjectLabels");
             // Find with more complex SQL in Repository method
             ArrayList<String> labels = new  ArrayList<String>();
             labels.add("@azure/cosmos");
@@ -123,14 +128,20 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
                     }
                 });
             }
+            log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
         }
 
-        if (false) {
+        if (true) {
+            log.warn("---");
+            log.warn("process tripleRepository.getNumberOfDocsWithSubjectLabel");
             long count = tripleRepository.getNumberOfDocsWithSubjectLabel("m26-js");
             log.warn("count of getNumberOfDocsWithSubjectLabel: " + count);
+            log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
         }
 
-        if (false) {
+        if (true) {
+            log.warn("---");
+            log.warn("process tripleRepository.getByPkLobAndSubjects");
             String subject = "library";
             TripleQueryStruct struct = new TripleQueryStruct();
             struct.setSql("dynamic");
@@ -152,9 +163,12 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             TripleQueryStruct struct2 = fu.readTripleQueryStruct(TRIPLE_QUERY_STRUCT_FILE);
             log.warn("struct type:    " + struct2.getStructType());
             log.warn("documents size: " + struct2.getDocuments().size());
+            log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
         }
 
         if (true) {
+            log.warn("---");
+            log.warn("process tripleRepository.getByPkTenantAndSubjectTypes");
             TripleQueryStruct struct = new TripleQueryStruct();
             struct.setSql("dynamic");
             struct.start();
@@ -179,9 +193,12 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             TripleQueryStruct struct2 = fu.readTripleQueryStruct(TRIPLE_QUERY_STRUCT_FILE);
             log.warn("struct type:    " + struct2.getStructType());
             log.warn("documents size: " + struct2.getDocuments().size());
+            log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
         }
 
-        if (false) {
+        if (true) {
+            log.warn("---");
+            log.warn("process libraryRepository.findByPkAndTenantAndDoctype");
             Iterable<Library> iterable = libraryRepository.findByPkAndTenantAndDoctype(
                     "tedious", tenant, "library");
             Iterator<Library> it = iterable.iterator();
@@ -192,9 +209,12 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
                 docCount++;
             }
             log.warn("findByTenantAndDoctypeAndPk count: " + docCount);
+            log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
         }
 
         if (true) {
+            log.warn("---");
+            log.warn("process tripleRepository.findByTenantAndLobAndSubjectLabelsIn");
             // Test the extension method in TripleRepositoryExtensions
             TripleQueryStruct struct = new TripleQueryStruct();
             ArrayList<String> subjectLabels = new ArrayList<String>();
@@ -210,13 +230,17 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
                 docCount++;
             }
             log.warn("findBySubjectLabelsIn count: " + docCount);
+            log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
         }
 
         if (true) {
+            log.warn("---");
+            log.warn("process template count");
             // example of using CosmosTemplate outside of a Repository
             log.warn("template: " + template);
             long count = template.count("altgraph");
             log.warn("doc count in altgraph container: " + count);
+            log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
         }
 
         log.warn("countAllDocuments:   " + tripleRepository.countAllDocuments());
