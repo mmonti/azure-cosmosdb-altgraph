@@ -77,7 +77,9 @@ public class CosmosDAO {
                     struct.addDocument(doc);
                 }
                 struct.incrementPageCount();
-                struct.incrementRuCharge(page.getRequestCharge());
+                double charge = page.getRequestCharge();
+                struct.incrementRuCharge(charge);
+                log.warn("page.getRequestCharge(): " + charge);
                 continuationToken = page.getContinuationToken();
             }
         }

@@ -45,11 +45,7 @@ public class DaoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             dao.initialize(uri, key, dbName);
 
             StringBuffer sb = new StringBuffer();
-                sb.append("select * from c where c.doctype = 'triple'");
-//            sb.append(" and c.tenant = '123'");
-//            sb.append(" and c.lob = 'npm'");
-//            sb.append(" and c.subjectType = 'library'");
-//            sb.append(" and c.objectType = 'library'");
+            sb.append("select * from c where c.doctype = 'triple'");
 
             TripleQueryStruct allTriplesStruct = new TripleQueryStruct();
             allTriplesStruct.setContainerName("altgraph");
@@ -65,9 +61,9 @@ public class DaoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             log.warn("struct type:    " + struct2.getStructType());
             log.warn("documents size: " + struct2.getDocuments().size());
 
-            //16:36:08.669 [main] WARN  o.c.c.altgraph.data.dao.CosmosDAO - page.getRequestCharge(): 170.28
-            //16:36:08.927 [main] WARN  o.c.c.altgraph.data.dao.CosmosDAO - page.getRequestCharge(): 149.6
-            //16:36:08.927 [main] WARN  o.c.c.a.d.p.DaoQueryProcessor - result.getRequestCharge(): 319.88
+//            09:44:08.197 [main] WARN  o.c.c.altgraph.data.dao.CosmosDAO - pageNum: 1, page.getRequestCharge(): 170.28
+//            09:44:08.894 [main] WARN  o.c.c.altgraph.data.dao.CosmosDAO - pageNum: 2, page.getRequestCharge(): 149.6
+//            09:44:08.895 [main] WARN  o.c.c.a.d.p.DaoQueryProcessor - result.getRequestCharge(): 319.88
         }
         finally {
             dao.close();

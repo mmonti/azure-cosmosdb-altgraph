@@ -244,7 +244,7 @@ public class RepoQueryProcessor implements ConsoleAppProcess, DataAppConstants {
             while (it.hasNext()) {
                 Triple t = it.next();
                 struct.addDocument(t);
-                log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge());
+                log.warn("last_request_charge: " + ResponseDiagnosticsProcessorImpl.getLastRequestCharge() + ", hashCode: " + ResponseDiagnosticsProcessorImpl.lastResponseDiagnostics.hashCode());
                 docCount++;
             }
             log.warn("findBySubjectLabelsIn count: " + docCount);
