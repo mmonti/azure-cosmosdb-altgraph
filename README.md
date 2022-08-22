@@ -15,6 +15,8 @@ It uses the **Node.js NPM** ecosystem of libraries as a public-domain dataset an
     <img src="docs/img/UI-Tedious-1-No-Cache.png" width="100%">
 </p>
 
+## Chris Joakim, Microsoft, CosmosDB Global Black Belt (GBB)
+
 ---
 
 ## Directory Structure of this Repository
