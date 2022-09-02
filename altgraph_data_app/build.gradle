@@ -86,6 +86,12 @@ task testCache(type: JavaExec) {
     args 'test_cache'
 }
 
+task testRedis(type: JavaExec) {
+    // This is ad-hoc code not directly related to AltGraph
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.cjoakim.cosmos.altgraph.data.DataCommandLineApp'
+    args 'test_redis'
+}
 
 // gradle -q dependencies > tmp/dependencies.txt
 //  \--- com.azure:azure-spring-data-cosmos:3.21.0

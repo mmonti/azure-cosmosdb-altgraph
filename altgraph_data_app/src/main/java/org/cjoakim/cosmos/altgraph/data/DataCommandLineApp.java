@@ -26,8 +26,8 @@ public class DataCommandLineApp implements CommandLineRunner, DataAppConstants {
     @Autowired private RepoQueryProcessor repoQueryProcessor;
     @Autowired private DaoQueryProcessor daoQueryProcessor;
     @Autowired private D3CsvProcessor d3CsvProcessor;
-
     @Autowired private CacheProcessor cacheProcessor;
+    @Autowired private RedisPocProcessor redisPocProcessor;
 
     @Autowired
     private GraphProcessor graphProcessor;
@@ -68,6 +68,9 @@ public class DataCommandLineApp implements CommandLineRunner, DataAppConstants {
                     break;
                 case "test_cache":
                     cacheProcessor.process();
+                    break;
+                case "test_redis":
+                    redisPocProcessor.process();
                     break;
                 default:
                     log.error("unknown CLI process name: " + processType);
