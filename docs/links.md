@@ -14,7 +14,7 @@
   - Kushagra Thapar
 
 - **How to use Azure Cosmos DB from your Spring Boot App, Episode 48**, 2022/06/23
-  - https://www.youtube.com/watch?v=4fSvyQw6luE
+  - https://www.youtube.com/watch?v=4fSvyQw6luE&list=PLmamF3YkHLoKMzT3gP4oqHiJbjMaiiLEh&index=48
   - Mark Heckler
     - Author of https://www.oreilly.com/library/view/spring-boot-up/9781492076971/
 
