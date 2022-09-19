@@ -17,7 +17,7 @@
   - Indexing Policy:
     - See file default indexing file **altgraph_data_app/indexing/default.json** in this repo
     - See recommended file **altgraph_data_app/indexing/altgraph_indexing.json** in this repo
-    - 
+
 - **Azure Redis Cache Account**
 
 ## Environment Variables
