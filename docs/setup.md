@@ -36,13 +36,13 @@ $ cd azure-cosmosdb-altgraph
 
 $ cd altgraph_data_app
 
-$ gradle clean compile          Compile the Java code
+$ gradle clean build            Compile the Java code
 $ gradle loadCosmos             Load CosmosDB with the already-created data files
 
 $ cd ..
 $ cd altgraph_web_app
 
-$ gradle clean compile           Compile the Java code
+$ gradle clean build             Compile the Java code
 $ gradle bootRun                 Run the Web Application locally
                                  Then visit http://localhost:8080 with your browser
 ```
