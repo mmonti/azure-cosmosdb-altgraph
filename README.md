@@ -33,3 +33,5 @@ It uses the **Node.js NPM** ecosystem of libraries as a public-domain dataset an
 - [Presentation PDF](CosmosDB-AltGraph.pdf)
 - [Links](docs/links.md)
 - [Setup](docs/setup.md)
+- [AltGraph GitHub Repo](https://github.com/cjoakim/azure-cosmosdb-altgraph)
+- [CosmosDB Live TV Episode #59](https://www.youtube.com/watch?v=SGih_Kj_1yk)
